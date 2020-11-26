@@ -1,4 +1,5 @@
 import React from 'react';
+import { getTriplyShuffledArray } from './utils';
 import vocab from "./vocab/conjonctions.json";
 
 class VocabExercise extends React.Component<Props, State> {
@@ -6,7 +7,11 @@ class VocabExercise extends React.Component<Props, State> {
         super(props)
 
         this.state = {
-            inputText: ''
+            inputText: '',
+            shuffledVocab: getTriplyShuffledArray(vocab.words),
+            correctCount: 0,
+            wrongCount: 0,
+            currentIndex: 0
         };
     }
 
@@ -22,7 +27,6 @@ class VocabExercise extends React.Component<Props, State> {
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <p>{JSON.stringify(vocab)}</p>
                 <input type="text" value={this.state.inputText} onChange={this.handleChange} />
                 <input type="submit" value="Valider" />
             </form>
@@ -35,5 +39,11 @@ export default VocabExercise;
 type Props = {};
 
 type State = {
-    inputText: string
+    inputText: string,
+    shuffledVocab: VocabLine[],
+    correctCount: number,
+    wrongCount: number,
+    currentIndex: number,
 };
+
+type VocabLine = { jap: string; romaji: string; fr: string; };

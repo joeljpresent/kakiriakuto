@@ -7,8 +7,10 @@ class App extends React.Component {
     return (
       <header>
         <h1>KakiReakuto</h1>
+{/**
         <h2>Fiche de vocabulaire</h2>
         <VocabTable />
+*/}
         <h2>Exercice</h2>
         <VocabExercise />
       </header>

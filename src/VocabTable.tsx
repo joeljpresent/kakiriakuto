@@ -5,11 +5,11 @@ class VocabTable extends React.Component {
     render() {
         return (
             <table>
-                <thead>
+                <thead><tr>
                     <td>Traduction</td>
                     <td>Japonais</td>
                     <td>Rōmaji</td>
-                </thead>
+                </tr></thead>
                 <tbody>
                 {
                     vocab.words.map((line, index) => <tr key={line.fr + index}>
