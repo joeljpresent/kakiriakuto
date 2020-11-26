@@ -1,4 +1,5 @@
 import React from 'react';
+import vocab from "./vocab/conjonctions.json";
 
 class VocabExercise extends React.Component<Props, State> {
     constructor(props: Props) {
@@ -21,8 +22,9 @@ class VocabExercise extends React.Component<Props, State> {
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
+                <p>{JSON.stringify(vocab)}</p>
                 <input type="text" value={this.state.inputText} onChange={this.handleChange} />
-                <input type="submit" />
+                <input type="submit" value="Valider" />
             </form>
         );
     }
