@@ -36,3 +36,8 @@ export type VocabLine = {
     /** The intonation (pitch accent) of the Japanese word */
     pitch?: string;
 };
+
+export enum PageType {
+    VocabularyList,
+    FrToJap,
+}
