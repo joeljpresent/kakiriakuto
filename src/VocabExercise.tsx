@@ -26,6 +26,9 @@ class VocabExercise extends React.Component<Props, State> {
 
     handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
+        if (!this.state.inputText) {
+            return;
+        }
         const isCorrectAnswer = this.state.inputText === this.state.expectedAnswer;
         const isLastQuestion = this.state.currentIndex >= this.state.shuffledVocab.length - 1;
         const updatedVocab = [
