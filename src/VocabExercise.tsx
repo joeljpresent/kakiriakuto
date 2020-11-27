@@ -10,8 +10,7 @@ class VocabExercise extends React.Component<Props, State> {
         this.state = {
             inputText: '',
             shuffledVocab,
-            question: shuffledVocab[0].fr,
-            expectedAnswer: shuffledVocab[0].jap,
+            currentLine: shuffledVocab[0],
             previousCorrectAnswer: null,
             correctCount: 0,
             wrongCount: 0,
@@ -29,7 +28,7 @@ class VocabExercise extends React.Component<Props, State> {
         if (!this.state.inputText) {
             return;
         }
-        const isCorrectAnswer = this.state.inputText === this.state.expectedAnswer;
+        const isCorrectAnswer = this.state.inputText === this.state.currentLine.jap;
         const isLastQuestion = this.state.currentIndex >= this.state.shuffledVocab.length - 1;
         const updatedVocab = [
             ...this.state.shuffledVocab,
@@ -44,21 +43,19 @@ class VocabExercise extends React.Component<Props, State> {
         } else {
             this.setState(state => ({
                 wrongCount: state.wrongCount + 1,
-                previousCorrectAnswer: state.expectedAnswer,
+                previousCorrectAnswer: `${state.currentLine.jap} (${state.currentLine.romaji})`,
                 shuffledVocab: updatedVocab,
             }));
         }
         if (isLastQuestion && isCorrectAnswer) {
             this.setState({
-                question: "Terminé !",
                 inputText: '',
                 isPlaying: false,
             });
         } else {
             this.setState(state => ({
                 currentIndex: state.currentIndex + 1,
-                question: updatedVocab[this.state.currentIndex + 1].fr,
-                expectedAnswer: updatedVocab[this.state.currentIndex + 1].jap,
+                currentLine: updatedVocab[this.state.currentIndex + 1],
                 inputText: '',
             }));
         }
@@ -68,7 +65,7 @@ class VocabExercise extends React.Component<Props, State> {
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <h2>{this.state.question}</h2>
+                <h2>{this.state.isPlaying ? this.state.currentLine.fr : "Terminé !"}</h2>
                 <input
                     type="text" value={this.state.inputText}
                     onChange={this.handleChange} disabled={!this.state.isPlaying}
@@ -97,8 +94,7 @@ type Props = {
 type State = {
     inputText: string,
     shuffledVocab: VocabLine[],
-    question: string,
-    expectedAnswer: string,
+    currentLine: VocabLine,
     previousCorrectAnswer: string | null,
     correctCount: number,
     wrongCount: number,
