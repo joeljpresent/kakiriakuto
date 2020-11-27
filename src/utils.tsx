@@ -14,3 +14,13 @@ export function getTriplyShuffledArray<T>(array: T[]) {
         ...getShuffledArray(array),
     ];
 }
+
+export type VocabFile = {
+    words: VocabLine[];
+};
+
+export type VocabLine = {
+    jap: string;
+    romaji: string;
+    fr: string;
+};

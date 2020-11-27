@@ -1,12 +1,11 @@
 import React from 'react';
-import { getTriplyShuffledArray } from './utils';
-import vocab from "./vocab/conjonctions.json";
+import { getTriplyShuffledArray, VocabFile, VocabLine } from './utils';
 
 class VocabExercise extends React.Component<Props, State> {
     constructor(props: Props) {
         super(props)
 
-        const shuffledVocab = getTriplyShuffledArray(vocab.words);
+        const shuffledVocab = getTriplyShuffledArray(props.vocab.words);
 
         this.state = {
             inputText: '',
@@ -88,7 +87,9 @@ class VocabExercise extends React.Component<Props, State> {
 
 export default VocabExercise;
 
-type Props = {};
+type Props = {
+    vocab: VocabFile,
+};
 
 type State = {
     inputText: string,
@@ -101,5 +102,3 @@ type State = {
     currentIndex: number,
     isPlaying: boolean,
 };
-
-type VocabLine = { jap: string; romaji: string; fr: string; };

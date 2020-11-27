@@ -1,7 +1,11 @@
 import React from "react";
-import vocab from "./vocab/conjonctions.json";
+import { VocabFile } from "./utils";
 
-class VocabTable extends React.Component {
+class VocabTable extends React.Component<Props, State> {
+    constructor(props: Props) {
+        super(props);
+    }
+
     render() {
         return (
             <table>
@@ -12,7 +16,7 @@ class VocabTable extends React.Component {
                 </tr></thead>
                 <tbody>
                 {
-                    vocab.words.map((line, index) => <tr key={line.fr + index}>
+                    this.props.vocab.words.map((line, index) => <tr key={line.fr + index}>
                         <td>{line.fr}</td>
                         <td>{line.jap}</td>
                         <td>{line.romaji}</td>
@@ -25,3 +29,8 @@ class VocabTable extends React.Component {
 }
 
 export default VocabTable;
+
+type Props = {
+    vocab: VocabFile,
+};
+type State = {};
