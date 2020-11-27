@@ -1,7 +1,6 @@
 import React from 'react';
-import VocabExercise from './VocabExercise';
-import vocabs from "./vocabs";
-import VocabTable from './VocabTable';
+import MainContent from './MainContent';
+import vocabs from './vocabs';
 
 class App extends React.Component<Props, State> {
   constructor(props: Props) {
@@ -9,12 +8,26 @@ class App extends React.Component<Props, State> {
 
     this.state = {
       selectedVocab: 0,
+      pageType: 0,
     }
   }
 
+  static readonly pageTypes = [
+    "Fiche de vocabulaire",
+    "Exercice FR → 日本語",
+  ]
+
+
   handleChangeVocab = (event: React.ChangeEvent<HTMLSelectElement>) => {
     this.setState({
-      selectedVocab: Number.parseInt(event.target.value) ?? 0,
+      selectedVocab: Number.parseInt(event.target.value, 10) ?? 0,
+      pageType: 0,
+    });
+  }
+
+  handleChangePageType = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    this.setState({
+      pageType: Number.parseInt(event.target.value, 10) ?? 0,
     });
   }
 
@@ -27,10 +40,12 @@ class App extends React.Component<Props, State> {
             <option value={index} key={index}>{vocab.title}</option>
           )
         }</select>
-        <h2>Exercice</h2>
-        <VocabExercise vocab={vocabs[this.state.selectedVocab]} />
-        <h2>La fiche de vocabulaire</h2>
-        <VocabTable vocab={vocabs[this.state.selectedVocab]} />
+        <select value={this.state.pageType} onChange={this.handleChangePageType}>{
+          App.pageTypes.map((pageType, index) =>
+            <option value={index} key={index}>{pageType}</option>
+          )
+        }</select>
+        <MainContent selectedVocab={this.state.selectedVocab} pageType={this.state.pageType} />
       </header>
     );
   }
@@ -41,4 +56,5 @@ export default App;
 type Props = {};
 type State = {
   selectedVocab: number,
+  pageType: number,
 };
