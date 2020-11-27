@@ -63,11 +63,22 @@ class VocabExercise extends React.Component<Props, State> {
     }
 
     isCorrectAnswer() {
-        return this.state.inputText === this.state.line.jap;
+        switch (this.props.exoType) {
+            case PageType.FrToJap:
+                return this.state.inputText === this.state.line.jap;
+            case PageType.FrToRomaji:
+                return this.state.inputText === this.state.line.romaji;
+        }
     }
 
     getPreviousCorrectAnswer(previousLine: VocabLine) {
-        return `${previousLine.jap} (${previousLine.romaji})`;
+        switch (this.props.exoType) {
+            case PageType.FrToJap:
+                return `${previousLine.jap} (${previousLine.romaji})`;
+            case PageType.FrToRomaji:
+                return `${previousLine.romaji}`;
+        }
+        return null;
     }
 
     getQuestionLine() {
