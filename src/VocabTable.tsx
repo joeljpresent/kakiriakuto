@@ -9,7 +9,7 @@ class VocabTable extends React.Component<Props, State> {
                     <td>Traduction</td>
                     <td>Japonais</td>
                     <td>Intonation</td>
-                    <td>Rōmaji</td>
+                    <td>Rômaji</td>
                 </tr></thead>
                 <tbody>
                 {
