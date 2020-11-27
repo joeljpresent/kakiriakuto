@@ -68,7 +68,9 @@ class VocabExercise extends React.Component<Props, State> {
             case PageType.FrToJap:
                 return inputText === this.state.line.jap;
             case PageType.FrToRomaji:
-                return inputText === this.state.line.romaji;
+                const strippedInput = inputText.replace(/[\s-]/g, "");
+                const strippedRomaji = this.state.line.romaji.replace(/[\s-]/g, "");
+                return strippedInput === strippedRomaji;
         }
     }
 
