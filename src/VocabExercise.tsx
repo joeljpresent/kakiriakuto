@@ -16,7 +16,8 @@ class VocabExercise extends React.Component<Props, State> {
             previousCorrectAnswer: null,
             correctCount: 0,
             wrongCount: 0,
-            currentIndex: 0
+            currentIndex: 0,
+            isPlaying: true,
         };
     }
 
@@ -26,7 +27,14 @@ class VocabExercise extends React.Component<Props, State> {
 
     handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        if (this.state.inputText === this.state.expectedAnswer) {
+        const isCorrectAnswer = this.state.inputText === this.state.expectedAnswer;
+        const isLastQuestion = this.state.currentIndex >= this.state.shuffledVocab.length - 1;
+        const updatedVocab = [
+            ...this.state.shuffledVocab,
+            this.state.shuffledVocab[this.state.currentIndex],
+        ];
+
+        if (isCorrectAnswer) {
             this.setState(state => ({
                 correctCount: state.correctCount + 1,
                 previousCorrectAnswer: null,
@@ -35,24 +43,22 @@ class VocabExercise extends React.Component<Props, State> {
             this.setState(state => ({
                 wrongCount: state.wrongCount + 1,
                 previousCorrectAnswer: state.expectedAnswer,
-                shuffledVocab: [
-                    ...state.shuffledVocab,
-                    state.shuffledVocab[state.currentIndex],
-                ],
+                shuffledVocab: updatedVocab,
             }));
         }
-        if (this.state.currentIndex < this.state.shuffledVocab.length - 1) {
-            this.setState(state => ({
-                currentIndex: state.currentIndex + 1,
-                question: this.state.shuffledVocab[this.state.currentIndex + 1].fr,
-                expectedAnswer: this.state.shuffledVocab[this.state.currentIndex + 1].jap,
-                inputText: '',
-            }));
-        } else {
+        if (isLastQuestion && isCorrectAnswer) {
             this.setState({
                 question: "Terminé !",
                 inputText: '',
+                isPlaying: false,
             });
+        } else {
+            this.setState(state => ({
+                currentIndex: state.currentIndex + 1,
+                question: updatedVocab[this.state.currentIndex + 1].fr,
+                expectedAnswer: updatedVocab[this.state.currentIndex + 1].jap,
+                inputText: '',
+            }));
         }
         console.log(this.state.inputText);
     }
@@ -61,8 +67,11 @@ class VocabExercise extends React.Component<Props, State> {
         return (
             <form onSubmit={this.handleSubmit}>
                 <h2>{this.state.question}</h2>
-                <input type="text" value={this.state.inputText} onChange={this.handleChange} />
-                <input type="submit" value="Valider" />
+                <input
+                    type="text" value={this.state.inputText}
+                    onChange={this.handleChange} disabled={!this.state.isPlaying}
+                />
+                <input type="submit" value="Valider" disabled={!this.state.isPlaying} />
                 <div>
                     {
                         (this.state.previousCorrectAnswer != null)
@@ -90,6 +99,7 @@ type State = {
     correctCount: number,
     wrongCount: number,
     currentIndex: number,
+    isPlaying: boolean,
 };
 
 type VocabLine = { jap: string; romaji: string; fr: string; };
