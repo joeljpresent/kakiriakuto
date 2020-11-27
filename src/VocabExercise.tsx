@@ -35,6 +35,10 @@ class VocabExercise extends React.Component<Props, State> {
             this.setState(state => ({
                 wrongCount: state.wrongCount + 1,
                 previousCorrectAnswer: state.expectedAnswer,
+                shuffledVocab: [
+                    ...state.shuffledVocab,
+                    state.shuffledVocab[state.currentIndex],
+                ],
             }));
         }
         if (this.state.currentIndex < this.state.shuffledVocab.length - 1) {
@@ -43,7 +47,7 @@ class VocabExercise extends React.Component<Props, State> {
                 question: this.state.shuffledVocab[this.state.currentIndex + 1].fr,
                 expectedAnswer: this.state.shuffledVocab[this.state.currentIndex + 1].jap,
                 inputText: '',
-            }))
+            }));
         } else {
             this.setState({
                 question: "Terminé !",

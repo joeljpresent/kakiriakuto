@@ -6,7 +6,7 @@ class App extends React.Component {
   render() {
     return (
       <header>
-        <h1>KakiReakuto</h1>
+        <h1>KakiRiakuto</h1>
 {/**
         <h2>Fiche de vocabulaire</h2>
         <VocabTable />
