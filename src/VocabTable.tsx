@@ -2,10 +2,6 @@ import React from "react";
 import { VocabFile } from "./utils";
 
 class VocabTable extends React.Component<Props, State> {
-    constructor(props: Props) {
-        super(props);
-    }
-
     render() {
         return (
             <table>

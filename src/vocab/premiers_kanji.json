@@ -1,0 +1,126 @@
+{
+ "title": "Premiers mots en kanji",
+ "video_id": "3p16KejjEpo",
+ "words": [
+  {
+   "jap": "人",
+   "romaji": "hito",
+   "pitch": "㋪／ト￣",
+   "fr": "la personne"
+  },
+  {
+   "jap": "男",
+   "romaji": "otoko",
+   "pitch": "オ／トコ＼",
+   "fr": "l'homme"
+  },
+  {
+   "jap": "女",
+   "romaji": "onna",
+   "pitch": "オ／ンナ＼",
+   "fr": "la femme"
+  },
+  {
+   "jap": "子",
+   "romaji": "ko",
+   "pitch": "コ￣",
+   "fr": "l'enfant"
+  },
+  {
+   "jap": "日",
+   "romaji": "hi",
+   "pitch": "ヒ￣",
+   "fr": "le soleil"
+  },
+  {
+   "jap": "月",
+   "romaji": "tsuki",
+   "pitch": "㋡／キ＼",
+   "fr": "la lune"
+  },
+  {
+   "jap": "時",
+   "romaji": "toki",
+   "pitch": "ト／キ＼",
+   "fr": "le temps"
+  },
+  {
+   "jap": "水",
+   "romaji": "mizu",
+   "pitch": "ミ／ズ￣",
+   "fr": "l'eau"
+  },
+  {
+   "jap": "火",
+   "romaji": "hi",
+   "pitch": "ヒ＼",
+   "fr": "le feu"
+  },
+  {
+   "jap": "土",
+   "romaji": "tsuchi",
+   "pitch": "㋡／チ＼",
+   "fr": "la terre (sur le sol)"
+  },
+  {
+   "jap": "風",
+   "romaji": "kaze",
+   "pitch": "カ／ゼ￣",
+   "fr": "le vent"
+  },
+  {
+   "jap": "空",
+   "romaji": "sora",
+   "pitch": "ソ＼ラ",
+   "fr": "le ciel"
+  },
+  {
+   "jap": "山",
+   "romaji": "yama",
+   "pitch": "ヤ／マ＼",
+   "fr": "la montagne"
+  },
+  {
+   "jap": "川",
+   "romaji": "kawa",
+   "pitch": "カ／ワ＼",
+   "fr": "la rivière"
+  },
+  {
+   "jap": "木",
+   "romaji": "ki",
+   "pitch": "キ＼",
+   "fr": "l'arbre"
+  },
+  {
+   "jap": "花",
+   "romaji": "hana",
+   "pitch": "ハ／ナ＼",
+   "fr": "la fleur"
+  },
+  {
+   "jap": "雨",
+   "romaji": "ame",
+   "pitch": "ア＼メ",
+   "fr": "la pluie"
+  },
+  {
+   "jap": "雪",
+   "romaji": "yuki",
+   "pitch": "ユ／キ＼",
+   "fr": "la neige"
+  },
+  {
+   "jap": "金",
+   "romaji": "kane",
+   "pitch": "カ／ネ￣",
+   "fr": "l'argent (la monnaie)"
+  },
+  {
+   "jap": "刀",
+   "romaji": "katana",
+   "pitch": "カ／タナ＼",
+   "fr": "le sabre"
+  }
+ ]
+}
