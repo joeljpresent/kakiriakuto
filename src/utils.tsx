@@ -33,4 +33,6 @@ export type VocabLine = {
     romaji: string;
     /** The French translation of the word */
     fr: string;
+    /** The intonation (pitch accent) of the Japanese word */
+    pitch?: string;
 };
