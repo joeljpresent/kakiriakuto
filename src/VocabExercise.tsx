@@ -63,11 +63,12 @@ class VocabExercise extends React.Component<Props, State> {
     }
 
     isCorrectAnswer() {
+        const inputText = this.state.inputText.trim();
         switch (this.props.exoType) {
             case PageType.FrToJap:
-                return this.state.inputText === this.state.line.jap;
+                return inputText === this.state.line.jap;
             case PageType.FrToRomaji:
-                return this.state.inputText === this.state.line.romaji;
+                return inputText === this.state.line.romaji;
         }
     }
 
