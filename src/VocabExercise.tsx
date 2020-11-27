@@ -12,6 +12,8 @@ class VocabExercise extends React.Component<Props, State> {
             inputText: '',
             shuffledVocab,
             question: shuffledVocab[0].fr,
+            expectedAnswer: shuffledVocab[0].jap,
+            previousCorrectAnswer: null,
             correctCount: 0,
             wrongCount: 0,
             currentIndex: 0
@@ -24,15 +26,29 @@ class VocabExercise extends React.Component<Props, State> {
 
     handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
+        if (this.state.inputText === this.state.expectedAnswer) {
+            this.setState(state => ({
+                correctCount: state.correctCount + 1,
+                previousCorrectAnswer: null,
+            }));
+        } else {
+            this.setState(state => ({
+                wrongCount: state.wrongCount + 1,
+                previousCorrectAnswer: state.expectedAnswer,
+            }));
+        }
         if (this.state.currentIndex < this.state.shuffledVocab.length - 1) {
             this.setState(state => ({
                 currentIndex: state.currentIndex + 1,
                 question: this.state.shuffledVocab[this.state.currentIndex + 1].fr,
+                expectedAnswer: this.state.shuffledVocab[this.state.currentIndex + 1].jap,
+                inputText: '',
             }))
         } else {
-            this.setState(() => ({
-                question: "Terminé !"
-            }));
+            this.setState({
+                question: "Terminé !",
+                inputText: '',
+            });
         }
         console.log(this.state.inputText);
     }
@@ -43,6 +59,15 @@ class VocabExercise extends React.Component<Props, State> {
                 <h2>{this.state.question}</h2>
                 <input type="text" value={this.state.inputText} onChange={this.handleChange} />
                 <input type="submit" value="Valider" />
+                <div>
+                    {
+                        (this.state.previousCorrectAnswer != null)
+                        ? <p>La bonne réponse était {this.state.previousCorrectAnswer}</p>
+                        : null
+                    }
+                    <p>Correct: {this.state.correctCount}</p>
+                    <p>Faux: {this.state.wrongCount}</p>
+                </div>
             </form>
         );
     }
@@ -56,6 +81,8 @@ type State = {
     inputText: string,
     shuffledVocab: VocabLine[],
     question: string,
+    expectedAnswer: string,
+    previousCorrectAnswer: string | null,
     correctCount: number,
     wrongCount: number,
     currentIndex: number,
