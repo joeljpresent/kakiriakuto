@@ -1,5 +1,5 @@
 import React from 'react';
-import { getTriplyShuffledArray, VocabFile, VocabLine } from './utils';
+import { getTriplyShuffledArray, PageType, VocabFile, VocabLine } from './utils';
 
 class VocabExercise extends React.Component<Props, State> {
     constructor(props: Props) {
@@ -28,7 +28,7 @@ class VocabExercise extends React.Component<Props, State> {
         if (!this.state.inputText) {
             return;
         }
-        const isCorrectAnswer = this.state.inputText === this.state.line.jap;
+        const isCorrectAnswer = this.isCorrectAnswer();
         const isLastQuestion = this.state.index >= this.state.vocab.length - 1;
         const updatedVocab = [
             ...this.state.vocab,
@@ -43,7 +43,7 @@ class VocabExercise extends React.Component<Props, State> {
         } else {
             this.setState(state => ({
                 wrongCount: state.wrongCount + 1,
-                previousCorrectAnswer: `${state.line.jap} (${state.line.romaji})`,
+                previousCorrectAnswer: this.getPreviousCorrectAnswer(state.line),
                 vocab: updatedVocab,
             }));
         }
@@ -62,10 +62,22 @@ class VocabExercise extends React.Component<Props, State> {
         console.log(this.state.inputText);
     }
 
+    isCorrectAnswer() {
+        return this.state.inputText === this.state.line.jap;
+    }
+
+    getPreviousCorrectAnswer(previousLine: VocabLine) {
+        return `${previousLine.jap} (${previousLine.romaji})`;
+    }
+
+    getQuestionLine() {
+        return this.state.isPlaying ? this.state.line.fr : "Terminé !";
+    }
+
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <h2>{this.state.isPlaying ? this.state.line.fr : "Terminé !"}</h2>
+                <h2>{this.getQuestionLine()}</h2>
                 <input
                     type="text" value={this.state.inputText}
                     onChange={this.handleChange} disabled={!this.state.isPlaying}
@@ -89,6 +101,7 @@ export default VocabExercise;
 
 type Props = {
     vocab: VocabFile,
+    exoType: PageType,
 };
 
 type State = {

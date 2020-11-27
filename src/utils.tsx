@@ -40,4 +40,5 @@ export type VocabLine = {
 export enum PageType {
     VocabularyList,
     FrToJap,
+    FrToRomaji,
 }

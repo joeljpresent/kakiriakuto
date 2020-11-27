@@ -1,5 +1,6 @@
 import React from 'react';
 import MainContent from './MainContent';
+import { PageType } from './utils';
 import vocabs from './vocabs';
 
 class App extends React.Component<Props, State> {
@@ -15,13 +16,14 @@ class App extends React.Component<Props, State> {
   static readonly pageTypes = [
     "Fiche de vocabulaire",
     "Exercice FR → 日本語",
+    "Exercice FR → RÔMAJI",
   ]
 
 
   handleChangeVocab = (event: React.ChangeEvent<HTMLSelectElement>) => {
     this.setState({
       selectedVocab: Number.parseInt(event.target.value, 10) ?? 0,
-      pageType: 0,
+      pageType: PageType.VocabularyList,
     });
   }
 

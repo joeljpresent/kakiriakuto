@@ -14,7 +14,10 @@ class MainContent extends React.Component<Props, State> {
         } else {
             return (<div>
                 <h2>Exercice</h2>
-                <VocabExercise vocab={vocabs[this.props.selectedVocab]} />
+                <VocabExercise
+                    vocab={vocabs[this.props.selectedVocab]}
+                    exoType={this.props.pageType}
+                />
             </div>);
         }
     }
