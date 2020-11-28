@@ -1,56 +1,57 @@
 {
- "title": "Conjonctions",
- "video_id": "knPj8V4arvE",
- "words": [
-  {
-   "jap": "そして",
-   "romaji": "soshite",
-   "fr": "et (union)"
-  },
-  {
-   "jap": "その上",
-   "romaji": "sono ue",
-   "fr": "de plus (ajout)"
-  },
-  {
-   "jap": "あるいは",
-   "romaji": "arui wa",
-   "fr": "ou bien (choix)"
-  },
-  {
-   "jap": "しかし",
-   "romaji": "shikashi",
-   "fr": "mais (opposition)"
-  },
-  {
-   "jap": "逆に",
-   "romaji": "GYAKU ni",
-   "fr": "inversement (propos inverse)"
-  },
-  {
-   "jap": "それで",
-   "romaji": "sore de",
-   "fr": "donc (conséquence)"
-  },
-  {
-   "jap": "ところで",
-   "romaji": "tokoro de",
-   "fr": "au fait (changement de sujet)"
-  },
-  {
-   "jap": "つまり",
-   "romaji": "tsumari",
-   "fr": "en un mot (résumé)"
-  },
-  {
-   "jap": "実は",
-   "romaji": "JITSU wa",
-   "fr": "à vrai dire (vérité)"
-  },
-  {
-   "jap": "一方",
-   "romaji": "IPPÔ",
-   "fr": "d'autre part (mise en parallèle)"
-  }
- ]
+    "$schema": "./_schema.json",
+    "title": "Conjonctions",
+    "video_id": "knPj8V4arvE",
+    "words": [
+        {
+            "jap": "そして",
+            "romaji": "soshite",
+            "fr": "et (union)"
+        },
+        {
+            "jap": "その上",
+            "romaji": "sono ue",
+            "fr": "de plus (ajout)"
+        },
+        {
+            "jap": "あるいは",
+            "romaji": "arui wa",
+            "fr": "ou bien (choix)"
+        },
+        {
+            "jap": "しかし",
+            "romaji": "shikashi",
+            "fr": "mais (opposition)"
+        },
+        {
+            "jap": "逆に",
+            "romaji": "GYAKU ni",
+            "fr": "inversement (propos inverse)"
+        },
+        {
+            "jap": "それで",
+            "romaji": "sore de",
+            "fr": "donc (conséquence)"
+        },
+        {
+            "jap": "ところで",
+            "romaji": "tokoro de",
+            "fr": "au fait (changement de sujet)"
+        },
+        {
+            "jap": "つまり",
+            "romaji": "tsumari",
+            "fr": "en un mot (résumé)"
+        },
+        {
+            "jap": "実は",
+            "romaji": "JITSU wa",
+            "fr": "à vrai dire (vérité)"
+        },
+        {
+            "jap": "一方",
+            "romaji": "IPPÔ",
+            "fr": "d'autre part (mise en parallèle)"
+        }
+    ]
 }

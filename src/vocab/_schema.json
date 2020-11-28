@@ -1,0 +1,54 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "title": "Vocabulary list for KakiRiakuto",
+    "type": "object",
+    "properties": {
+        "$schema": {
+            "description": "Path to the JSON schema",
+            "type": "string"
+        },
+        "title": {
+            "description": "The name of the vocabulary list",
+            "type": "string"
+        },
+        "video_id": {
+            "description": "The YouTube ID of the video for the vocabulary course",
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9_-]{11}$",
+            "examples": ["dQw4w9WgXcQ"]
+        },
+        "words": {
+            "description": "The words taught in the vocabulary course",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "jap": {
+                        "type": "string",
+                        "description": "The Japanese word",
+                        "examples": ["洗熊"]
+                    },
+                    "romaji": {
+                        "type": "string",
+                        "description": "The romanized transcription of the Japanese word",
+                        "examples": ["araigumi"]
+                    },
+                    "fr": {
+                        "type": "string",
+                        "description": "The French translation of the word",
+                        "examples": ["le raton laveur"]
+                    },
+                    "pitch": {
+                        "type": "string",
+                        "description": "The intonation (pitch accent) of the Japanese word",
+                        "examples": ["ア／ライ＼グマ"]
+                    }
+                },
+                "required": ["jap", "romaji", "fr"],
+                "additionalProperties": false
+            }
+        }
+    },
+    "required": ["title", "words"],
+    "additionalProperties": false
+}
