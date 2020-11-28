@@ -1,4 +1,5 @@
 import React from 'react';
+import * as Compare from './compare';
 import { getTriplyShuffledArray, PageType, VocabFile, VocabLine } from './utils';
 
 class VocabExercise extends React.Component<Props, State> {
@@ -63,14 +64,13 @@ class VocabExercise extends React.Component<Props, State> {
     }
 
     isCorrectAnswer() {
-        const inputText = this.state.inputText.trim();
         switch (this.props.exoType) {
             case PageType.FrToJap:
-                return inputText === this.state.line.jap;
+                return this.state.inputText.trim() === this.state.line.jap.trim();
             case PageType.FrToRomaji:
-                const strippedInput = inputText.replace(/[\s-]/g, "");
-                const strippedRomaji = this.state.line.romaji.replace(/[\s-]/g, "");
-                return strippedInput === strippedRomaji;
+                return Compare.romaji(this.state.inputText, this.state.line.romaji);
+            case PageType.JapToFr:
+                return Compare.fr(this.state.inputText, this.state.line.fr);
         }
     }
 
@@ -79,13 +79,19 @@ class VocabExercise extends React.Component<Props, State> {
             case PageType.FrToJap:
                 return `${previousLine.jap} (${previousLine.romaji})`;
             case PageType.FrToRomaji:
-                return `${previousLine.romaji}`;
+                return previousLine.romaji;
+            case PageType.JapToFr:
+                return previousLine.fr;
         }
+        console.error("Unknown exercise type!");
         return null;
     }
 
     getQuestionLine() {
-        return this.state.isPlaying ? this.state.line.fr : "Terminé !";
+        const question = this.props.exoType === PageType.JapToFr
+                       ? this.state.line.jap
+                       : this.state.line.fr;
+        return this.state.isPlaying ? question : "Terminé !";
     }
 
     render() {

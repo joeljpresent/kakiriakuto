@@ -41,4 +41,12 @@ export enum PageType {
     VocabularyList,
     FrToJap,
     FrToRomaji,
+    JapToFr,
 }
+
+export const PAGE_TYPES = [
+    "Fiche de vocabulaire",
+    "Exercice FR → 日本語",
+    "Exercice FR → RÔMAJI",
+    "Exercice 日本語 → FR",
+]

@@ -1,6 +1,6 @@
 import React from 'react';
 import MainContent from './MainContent';
-import { PageType } from './utils';
+import { PageType, PAGE_TYPES } from './utils';
 import vocabs from './vocabs';
 
 class App extends React.Component<Props, State> {
@@ -12,13 +12,6 @@ class App extends React.Component<Props, State> {
       pageType: 0,
     }
   }
-
-  static readonly pageTypes = [
-    "Fiche de vocabulaire",
-    "Exercice FR → 日本語",
-    "Exercice FR → RÔMAJI",
-  ]
-
 
   handleChangeVocab = (event: React.ChangeEvent<HTMLSelectElement>) => {
     this.setState({
@@ -43,7 +36,7 @@ class App extends React.Component<Props, State> {
           )
         }</select>
         <select value={this.state.pageType} onChange={this.handleChangePageType}>{
-          App.pageTypes.map((pageType, index) =>
+          PAGE_TYPES.map((pageType, index) =>
             <option value={index} key={index}>{pageType}</option>
           )
         }</select>
