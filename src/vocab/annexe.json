@@ -1,0 +1,611 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "title": "Vocabulaire annexe",
+    "words": [
+        {
+            "jap": "伝説",
+            "romaji": "DENSETSU",
+            "fr": "la légende"
+        },
+        {
+            "jap": "冒険",
+            "romaji": "BÔKEN",
+            "fr": "l'aventure"
+        },
+        {
+            "jap": "歌",
+            "romaji": "uta",
+            "fr": "la chanson"
+        },
+        {
+            "jap": "神々",
+            "romaji": "kamigami",
+            "fr": "les dieux"
+        },
+        {
+            "jap": "城",
+            "romaji": "shiro",
+            "fr": "le château"
+        },
+        {
+            "jap": "王国",
+            "romaji": "ÔKOKU",
+            "fr": "le royaume"
+        },
+        {
+            "jap": "神殿",
+            "romaji": "SHINDEN",
+            "fr": "le temple (dédié à une divinité)"
+        },
+        {
+            "jap": "炎",
+            "romaji": "honô",
+            "fr": "la flamme"
+        },
+        {
+            "jap": "夜",
+            "romaji": "yoru",
+            "fr": "la nuit"
+        },
+        {
+            "jap": "村",
+            "romaji": "mura",
+            "fr": "le village"
+        },
+        {
+            "jap": "谷",
+            "romaji": "tani",
+            "fr": "la vallée"
+        },
+        {
+            "jap": "平原",
+            "romaji": "HÊGEN",
+            "fr": "la plaine"
+        },
+        {
+            "jap": "瓶",
+            "romaji": "BIN",
+            "fr": "la bouteille"
+        },
+        {
+            "jap": "キャラクター",
+            "romaji": "KYARAKUTÂ",
+            "fr": "le personnage"
+        },
+        {
+            "jap": "シールド",
+            "romaji": "SHÎRUDO",
+            "fr": "le bouclier"
+        },
+        {
+            "jap": "夢",
+            "romaji": "yume",
+            "fr": "le rêve"
+        },
+        {
+            "jap": "森",
+            "romaji": "mori",
+            "fr": "la forêt"
+        },
+        {
+            "jap": "妖精",
+            "romaji": "YÔSÊ",
+            "fr": "la fée"
+        },
+        {
+            "jap": "泉",
+            "romaji": "izumi",
+            "fr": "la fontaine (la source)"
+        },
+        {
+            "jap": "経営者",
+            "romaji": "KÊÊSHA",
+            "fr": "le propriétaire"
+        },
+        {
+            "jap": "牧場",
+            "romaji": "BOKUJÔ",
+            "fr": "le ranch"
+        },
+        {
+            "jap": "友達",
+            "romaji": "tomodachi",
+            "fr": "l'ami"
+        },
+        {
+            "jap": "温泉",
+            "romaji": "ONSEN",
+            "fr": "la source chaude"
+        },
+        {
+            "jap": "里",
+            "romaji": "sato",
+            "fr": "le village (le hameau)"
+        },
+        {
+            "jap": "首都",
+            "romaji": "SHUTO",
+            "fr": "la capitale (d'un pays)"
+        },
+        {
+            "jap": "本",
+            "romaji": "HON",
+            "fr": "le livre"
+        },
+        {
+            "jap": "机",
+            "romaji": "tsukue",
+            "fr": "le bureau (meuble)"
+        },
+        {
+            "jap": "剣士",
+            "romaji": "KENSHI",
+            "fr": "l'épéiste (l'escrimeur)"
+        },
+        {
+            "jap": "海",
+            "romaji": "umi",
+            "fr": "la mer"
+        },
+        {
+            "jap": "湖",
+            "romaji": "mizûmi",
+            "fr": "le lac"
+        },
+        {
+            "jap": "遊ぶ",
+            "romaji": "asobu",
+            "fr": "jouer"
+        },
+        {
+            "jap": "泳ぐ",
+            "romaji": "oyogu",
+            "fr": "nager"
+        },
+        {
+            "jap": "泣く",
+            "romaji": "naku",
+            "fr": "pleurer"
+        },
+        {
+            "jap": "笑う",
+            "romaji": "warau",
+            "fr": "rire"
+        },
+        {
+            "jap": "都",
+            "romaji": "miyako",
+            "fr": "la capitale"
+        },
+        {
+            "jap": "在り処",
+            "romaji": "arika",
+            "fr": "l'emplacement (la position)"
+        },
+        {
+            "jap": "所",
+            "romaji": "tokoro",
+            "fr": "le lieu"
+        },
+        {
+            "jap": "遊園地",
+            "romaji": "YÛENCHI",
+            "fr": "le parc d'attractions"
+        },
+        {
+            "jap": "駄菓子屋",
+            "romaji": "DAGASHIya",
+            "fr": "le magasin de confiseries"
+        },
+        {
+            "jap": "箸",
+            "romaji": "hashi",
+            "fr": "les baguettes (couverts)"
+        },
+        {
+            "jap": "売る",
+            "romaji": "uru",
+            "fr": "vendre"
+        },
+        {
+            "jap": "あげる",
+            "romaji": "ageru",
+            "fr": "donner"
+        },
+        {
+            "jap": "教える",
+            "romaji": "oshieru",
+            "fr": "enseigner"
+        },
+        {
+            "jap": "合う",
+            "romaji": "au",
+            "fr": "rencontrer"
+        },
+        {
+            "jap": "変わる",
+            "romaji": "kawaru",
+            "fr": "se changer"
+        },
+        {
+            "jap": "飛ぶ",
+            "romaji": "tobu",
+            "fr": "voler (dans les airs)"
+        },
+        {
+            "jap": "走る",
+            "romaji": "hashiru*",
+            "fr": "courir"
+        },
+        {
+            "jap": "傷",
+            "romaji": "kizu",
+            "fr": "la blessure"
+        },
+        {
+            "jap": "地球人",
+            "romaji": "CHIKYÛJIN",
+            "fr": "le Terrien"
+        },
+        {
+            "jap": "買う",
+            "romaji": "kau",
+            "fr": "acheter"
+        },
+        {
+            "jap": "切る",
+            "romaji": "kiru*",
+            "fr": "couper"
+        },
+        {
+            "jap": "数",
+            "romaji": "suu",
+            "fr": "fumer"
+        },
+        {
+            "jap": "治す",
+            "romaji": "naosu",
+            "fr": "soigner"
+        },
+        {
+            "jap": "投げる",
+            "romaji": "nageru",
+            "fr": "lancer (jeter)"
+        },
+        {
+            "jap": "光",
+            "romaji": "hikari",
+            "fr": "la lumière"
+        },
+        {
+            "jap": "送る",
+            "romaji": "okuru",
+            "fr": "envoyer"
+        },
+        {
+            "jap": "一日中",
+            "romaji": "ICHINICHIJÛ",
+            "fr": "toute la journée"
+        },
+        {
+            "jap": "今朝",
+            "romaji": "kesa",
+            "fr": "ce matin (d'aujourd'hui)"
+        },
+        {
+            "jap": "毎晩",
+            "romaji": "MAIBAN",
+            "fr": "tous les soirs"
+        },
+        {
+            "jap": "授業",
+            "romaji": "JUGYÔ",
+            "fr": "le cours"
+        },
+        {
+            "jap": "祈る",
+            "romaji": "inoru",
+            "fr": "prier"
+        },
+        {
+            "jap": "犯罪者",
+            "romaji": "HANZAINSHA",
+            "fr": "le criminel"
+        },
+        {
+            "jap": "殺す",
+            "romaji": "korosu",
+            "fr": "tuer"
+        },
+        {
+            "jap": "人生",
+            "romaji": "JINSÊ",
+            "fr": "la vie (humaine)"
+        },
+        {
+            "jap": "大学",
+            "romaji": "DAIGAKU",
+            "fr": "l'université"
+        },
+        {
+            "jap": "誕生",
+            "romaji": "TANJÔ",
+            "fr": "la naissance"
+        },
+        {
+            "jap": "ベル",
+            "romaji": "BERU",
+            "fr": "la cloche (la sonnerie)"
+        },
+        {
+            "jap": "新幹線",
+            "romaji": "SHINKANSEN",
+            "fr": "le Shinkansen (TGV japonais)"
+        },
+        {
+            "jap": "終わる",
+            "romaji": "owaru",
+            "fr": "se terminer (intr.)"
+        },
+        {
+            "jap": "始まる",
+            "romaji": "hajimaru",
+            "fr": "commencer (intr.)"
+        },
+                {
+            "jap": "毎朝",
+            "romaji": "MAIasa",
+            "fr": "tous les matins"
+        },
+        {
+            "jap": "角",
+            "romaji": "tsuno",
+            "fr": "la corne"
+        },
+        {
+            "jap": "牙",
+            "romaji": "kiba",
+            "fr": "le croc"
+        },
+        {
+            "jap": "爪",
+            "romaji": "tsume",
+            "fr": "la griffe (ou l'ongle)"
+        },
+        {
+            "jap": "主人公",
+            "romaji": "SHUJINKÔ",
+            "fr": "le personnage principal"
+        },
+        {
+            "jap": "少女",
+            "romaji": "SHÔJO",
+            "fr": "la jeune fille"
+        },
+        {
+            "jap": "植える",
+            "romaji": "ueru",
+            "fr": "planter"
+        },
+        {
+            "jap": "落ちる",
+            "romaji": "ochiru",
+            "fr": "tomber"
+        },
+        {
+            "jap": "戦う",
+            "romaji": "tatakau",
+            "fr": "se battre (contre = と)"
+        },
+        {
+            "jap": "守る",
+            "romaji": "mamoru",
+            "fr": "protéger"
+        },
+        {
+            "jap": "燃える",
+            "romaji": "moeru",
+            "fr": "brûler (intr.)"
+        },
+        {
+            "jap": "祝日",
+            "romaji": "shukujitsu",
+            "fr": "le jour férié"
+        },
+        {
+            "jap": "吐く",
+            "romaji": "haku",
+            "fr": "vomir (ou cracher du feu)"
+        },
+        {
+            "jap": "コンドーム",
+            "romaji": "KONDÔMU",
+            "fr": "le préservatif"
+        },
+        {
+            "jap": "人間",
+            "romaji": "NINGEN",
+            "fr": "l'être humain"
+        },
+        {
+            "jap": "旅行",
+            "romaji": "RYOKÔ",
+            "fr": "le voyage"
+        },
+        {
+            "jap": "刺す",
+            "romaji": "sasu",
+            "fr": "piquer (transpercer)"
+        },
+        {
+            "jap": "使う",
+            "romaji": "tsukau",
+            "fr": "utiliser"
+        },
+        {
+            "jap": "竹",
+            "romaji": "take",
+            "fr": "le bambou"
+        },
+        {
+            "jap": "勝つ",
+            "romaji": "katsu",
+            "fr": "gagner"
+        },
+        {
+            "jap": "溺れる",
+            "romaji": "oboreru",
+            "fr": "se noyer"
+        },
+        {
+            "jap": "顔",
+            "romaji": "kao",
+            "fr": "le visage"
+        },
+        {
+            "jap": "着く",
+            "romaji": "tsuku",
+            "fr": "arriver"
+        },
+        {
+            "jap": "塗る",
+            "romaji": "nuru",
+            "fr": "appliquer (peinture, crème, vernis)"
+        },
+        {
+            "jap": "残る",
+            "romaji": "nokoru",
+            "fr": "rester (verbe de présence)"
+        },
+        {
+            "jap": "出る",
+            "romaji": "deru",
+            "fr": "sortir (dehors)"
+        },
+        {
+            "jap": "国旗",
+            "romaji": "KOKKI",
+            "fr": "le drapeau (national)"
+        },
+        {
+            "jap": "鮫",
+            "romaji": "same",
+            "fr": "le requin"
+        },
+        {
+            "jap": "美人",
+            "romaji": "BIJIN",
+            "fr": "la belle femme"
+        },
+        {
+            "jap": "洗う",
+            "romaji": "arau",
+            "fr": "laver"
+        },
+        {
+            "jap": "一緒に",
+            "romaji": "ISSHO ni",
+            "fr": "ensemble (adverbe)"
+        },
+        {
+            "jap": "秘密",
+            "romaji": "HIMITSU",
+            "fr": "le secret"
+        },
+        {
+            "jap": "冗談",
+            "romaji": "JÔDAN",
+            "fr": "la blague (la plaisanterie)"
+        },
+        {
+            "jap": "煙",
+            "romaji": "kemuri",
+            "fr": "la fumée"
+        },
+        {
+            "jap": "音楽",
+            "romaji": "ONGAKU",
+            "fr": "la musique"
+        },
+        {
+            "jap": "ペット",
+            "romaji": "PETTO",
+            "fr": "l'animal de compagnie"
+        },
+        {
+            "jap": "一体",
+            "romaji": "ITTAI",
+            "fr": "à la fin (adverbe renforçant une question)"
+        },
+        {
+            "jap": "危険",
+            "romaji": "KIKEN",
+            "fr": "le danger"
+        },
+        {
+            "jap": "リズム",
+            "romaji": "RIZUMU",
+            "fr": "le rythme"
+        },
+        {
+            "jap": "選ぶ",
+            "romaji": "erabu",
+            "fr": "choisir"
+        },
+        {
+            "jap": "なでる",
+            "romaji": "naderu",
+            "fr": "caresser"
+        },
+        {
+            "jap": "いっぱい",
+            "romaji": "IPPAI",
+            "fr": "plein (adverbe)"
+        },
+        {
+            "jap": "辞書",
+            "romaji": "JISHO",
+            "fr": "le dictionnaire"
+        },
+        {
+            "jap": "手紙",
+            "romaji": "tegami",
+            "fr": "la lettre (courrier postal)"
+        },
+        {
+            "jap": "敵",
+            "romaji": "TEKI",
+            "fr": "l'ennemi"
+        },
+        {
+            "jap": "人参",
+            "romaji": "NINJIN",
+            "fr": "la carotte"
+        },
+        {
+            "jap": "フランスパン",
+            "romaji": "FURANSUPAN",
+            "fr": "la baguette de pain"
+        },
+        {
+            "jap": "ほぼ",
+            "romaji": "hobo",
+            "fr": "presque (adverbe d'approximation)"
+        },
+        {
+            "jap": "約",
+            "romaji": "YAKU",
+            "fr": "environ (adverbe d'approximation)"
+        },
+        {
+            "jap": "白鳥",
+            "romaji": "HAKUCHÔ",
+            "fr": "le cygne"
+        },
+        {
+            "jap": "具合",
+            "romaji": "GUai",
+            "fr": "l'état (la condition, e.g. de santé)"
+        }
+    ]
+}

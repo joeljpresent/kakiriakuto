@@ -1,5 +1,5 @@
 function sanitizeRomaji(txt: string) {
-    return txt.replace(/[\s-]/g, "");
+    return txt.replace(/[\s\*\-]/g, "");
 }
 
 export function romaji(input: string, expected: string) {
