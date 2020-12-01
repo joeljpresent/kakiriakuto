@@ -4,28 +4,8 @@
     "words": [
         {
             "jap": "丁度",
-            "romaji": "choudo",
+            "romaji": "CHÔDO",
             "fr": "correct, exactement"
-        },
-        {
-            "jap": "お風呂",
-            "romaji": "ofuro",
-            "fr": "bain"
-        },
-        {
-            "jap": "お父さん",
-            "romaji": "otousan",
-            "fr": "votre père"
-        },
-        {
-            "jap": "お母さん",
-            "romaji": "okaasan",
-            "fr": "votre mère"
-        },
-        {
-            "jap": "両親",
-            "romaji": "ryoushin",
-            "fr": "mes parents"
         },
         {
             "jap": "不味い",
@@ -34,43 +14,38 @@
         },
         {
             "jap": "留学生",
-            "romaji": "ryuugakusei",
-            "fr": "étudiants étrangers"
+            "romaji": "RYÛGAKUSÊ",
+            "fr": "l'étudiant en échange (à l'étranger)"
         },
         {
             "jap": "忙しい",
             "romaji": "isogashii",
-            "fr": "occupé"
+            "fr": "occupé (ayant beaucoup à faire)"
         },
         {
             "jap": "平日",
-            "romaji": "heijitsu",
-            "fr": "jour ouvré"
+            "romaji": "HÊJITSU",
+            "fr": "le jour en semaine"
         },
         {
             "jap": "勉強",
-            "romaji": "benkyou",
+            "romaji": "BENKYÔ",
             "fr": "les études"
-        },
-        {
-            "jap": "横",
-            "romaji": "yoko",
-            "fr": "(à) côté (de)"
         },
         {
             "jap": "棚",
             "romaji": "tana",
-            "fr": "étagère"
+            "fr": "l'étagère"
         },
         {
             "jap": "本棚",
-            "romaji": "hondana",
-            "fr": "étagère à livres"
+            "romaji": "HONdana",
+            "fr": "l'étagère à livres"
         },
         {
             "jap": "低い",
             "romaji": "hikui",
-            "fr": "bas, peu élevé, petit"
+            "fr": "bas (peu élevé, petit)"
         },
         {
             "jap": "習う",
@@ -78,24 +53,9 @@
             "fr": "apprendre"
         },
         {
-            "jap": "祖父母",
-            "romaji": "sofubo",
-            "fr": "mes grands-parents"
-        },
-        {
-            "jap": "孫",
-            "romaji": "mago",
-            "fr": "mon petit-enfant"
-        },
-        {
-            "jap": "飛行機",
-            "romaji": "hikouki",
-            "fr": "avion"
-        },
-        {
             "jap": "遅い",
             "romaji": "osoi",
-            "fr": "lent ; tard ; en retard"
+            "fr": "lent (ou tard ou en retard)"
         },
         {
             "jap": "嫌い",
@@ -104,8 +64,8 @@
         },
         {
             "jap": "秘密",
-            "romaji": "himitsu",
-            "fr": "secret"
+            "romaji": "HIMITSU",
+            "fr": "le secret"
         },
         {
             "jap": "着る",
@@ -115,7 +75,7 @@
         {
             "jap": "履く",
             "romaji": "haku",
-            "fr": "porter (bas, chaussures...)"
+            "fr": "porter (bas, chaussures…)"
         },
         {
             "jap": "被る",
@@ -128,8 +88,8 @@
             "fr": "vendre"
         },
         {
-            "jap": "昨夜／夕べ",
-            "romaji": "yuube",
+            "jap": "夕べ",
+            "romaji": "yûbe",
             "fr": "hier soir"
         },
         {
@@ -165,12 +125,12 @@
         {
             "jap": "昼間",
             "romaji": "hiruma",
-            "fr": "journée"
+            "fr": "la journée (≠ la nuit)"
         },
         {
             "jap": "夕方",
-            "romaji": "yuugata",
-            "fr": "soirée"
+            "romaji": "yûgata",
+            "fr": "la soirée"
         },
         {
             "jap": "少ない",
@@ -179,8 +139,8 @@
         },
         {
             "jap": "醤油",
-            "romaji": "shouyu",
-            "fr": "sauce de soja"
+            "romaji": "SHÔYU",
+            "fr": "la sauce de soja"
         },
         {
             "jap": "弱い",
@@ -194,7 +154,7 @@
         },
         {
             "jap": "感心",
-            "romaji": "kanshin",
+            "romaji": "KANSHIN",
             "fr": "admirable"
         },
         {
@@ -204,18 +164,18 @@
         },
         {
             "jap": "随分",
-            "romaji": "zuibun",
+            "romaji": "ZUIBUN",
             "fr": "extrêmement"
         },
         {
             "jap": "砂糖",
-            "romaji": "satou",
-            "fr": "sucre"
+            "romaji": "SATÔ",
+            "fr": "le sucre"
         },
         {
             "jap": "塩",
             "romaji": "shio",
-            "fr": "sel (de table)"
+            "fr": "le sel (de table)"
         },
         {
             "jap": "曲がる",
@@ -229,7 +189,7 @@
         },
         {
             "jap": "通る",
-            "romaji": "tooru",
+            "romaji": "tôru",
             "fr": "passer (par un endroit)"
         },
         {
@@ -245,12 +205,12 @@
         {
             "jap": "角",
             "romaji": "kado",
-            "fr": "angle, coin"
+            "fr": "l'angle (ou le coin)"
         },
         {
             "jap": "荷物",
-            "romaji": "nimotsu",
-            "fr": "bagage"
+            "romaji": "niMOTSU",
+            "fr": "le bagage"
         },
         {
             "jap": "重い",
@@ -269,22 +229,22 @@
         },
         {
             "jap": "大切",
-            "romaji": "taisetsu",
-            "fr": "important, de valeur"
+            "romaji": "TAISETSU",
+            "fr": "important (de valeur)"
         },
         {
             "jap": "去年",
-            "romaji": "kyonen",
+            "romaji": "KYONEN",
             "fr": "l'année dernière"
         },
         {
             "jap": "立派",
-            "romaji": "rippa",
-            "fr": "majestueux, splendide"
+            "romaji": "RIPPA",
+            "fr": "splendide (majestueux)"
         },
         {
             "jap": "有名",
-            "romaji": "yuumei",
+            "romaji": "YÛMÊ",
             "fr": "célèbre"
         },
         {
@@ -294,18 +254,18 @@
         },
         {
             "jap": "大勢",
-            "romaji": "oozei",
-            "fr": "nombreux, beaucoup (de gens)"
+            "romaji": "ôZÊ",
+            "fr": "nombreux (beaucoup de gens)"
         },
         {
             "jap": "家庭",
-            "romaji": "katei",
-            "fr": "foyer, famille"
+            "romaji": "KATÊ",
+            "fr": "le foyer (famille)"
         },
         {
             "jap": "新聞",
-            "romaji": "shinbun",
-            "fr": "journal"
+            "romaji": "SHINBUN",
+            "fr": "le journal"
         },
         {
             "jap": "閉める",
@@ -324,13 +284,13 @@
         },
         {
             "jap": "洗濯",
-            "romaji": "sentaku",
-            "fr": "lessive, lavage du linge"
+            "romaji": "SENTAKU",
+            "fr": "la lessive (lavage du linge)"
         },
         {
             "jap": "掃除",
-            "romaji": "souji",
-            "fr": "ménage, nettoyage "
+            "romaji": "SÔJI",
+            "fr": "le ménage (nettoyage)"
         },
         {
             "jap": "浴びる",
@@ -345,11 +305,11 @@
         {
             "jap": "立つ",
             "romaji": "tatsu",
-            "fr": "se lever, être debout"
+            "fr": "se lever (être debout)"
         },
         {
             "jap": "携帯",
-            "romaji": "keitai",
+            "romaji": "KÊTAI",
             "fr": "portable"
         },
         {
@@ -360,32 +320,32 @@
         {
             "jap": "勤める",
             "romaji": "tsutomeru",
-            "fr": "servir, travailler"
+            "fr": "servir (travailler pour une entreprise)"
         },
         {
-            "jap": "上る／登る",
+            "jap": "登る",
             "romaji": "noboru",
-            "fr": "monter, grimper"
+            "fr": "monter (grimper)"
         },
         {
             "jap": "海",
             "romaji": "umi",
-            "fr": "mer"
+            "fr": "la mer"
         },
         {
             "jap": "池",
             "romaji": "ike",
-            "fr": "étang, mare"
+            "fr": "l'étang (la mare)"
         },
         {
             "jap": "声",
             "romaji": "koe",
-            "fr": "voix, son d'un animal"
+            "fr": "voix (ou le son d'un animal)"
         },
         {
             "jap": "賑やか",
             "romaji": "nigiyaka",
-            "fr": "animé, bruyant"
+            "fr": "animé (bruyant)"
         },
         {
             "jap": "煩い",
@@ -399,18 +359,18 @@
         },
         {
             "jap": "花瓶",
-            "romaji": "kabin",
-            "fr": "vase (pour fleurs)"
+            "romaji": "KABIN",
+            "fr": "le vase (pour fleurs)"
         },
         {
             "jap": "静か",
             "romaji": "shizuka",
-            "fr": "calme, silencieux"
+            "fr": "silencieux (calme)"
         },
         {
             "jap": "鳴く",
             "romaji": "naku",
-            "fr": "[animal] faire un cri"
+            "fr": "faire un cri (animal)"
         },
         {
             "jap": "飛ぶ",
@@ -420,32 +380,32 @@
         {
             "jap": "差す",
             "romaji": "sasu",
-            "fr": "mettre, ouvrir, allumer..."
+            "fr": "mettre (ou ouvrir, allumer…)"
         },
         {
             "jap": "終わる",
             "romaji": "owaru",
-            "fr": "finir, se terminer"
+            "fr": "finir (se terminer)"
         },
         {
             "jap": "宿題",
-            "romaji": "shukudai",
+            "romaji": "SHUKUDAI",
             "fr": "les devoirs (scolaires)"
         },
         {
             "jap": "授業",
-            "romaji": "jugyou",
-            "fr": "cours, classe"
+            "romaji": "JUGYÔ",
+            "fr": "le cours (la classe)"
         },
         {
             "jap": "教科書",
-            "romaji": "kyoukasho",
-            "fr": "manuel scolaire"
+            "romaji": "KYÔKASHO",
+            "fr": "le manuel scolaire"
         },
         {
             "jap": "易しい",
             "romaji": "yasashii",
-            "fr": "simple, facile"
+            "fr": "simple (facile)"
         },
         {
             "jap": "難しい",
@@ -455,52 +415,52 @@
         {
             "jap": "引く",
             "romaji": "hiku",
-            "fr": "(re)tirer, tracer, consulter..."
+            "fr": "tirer (ou retirer, tracer, consulter…)"
         },
         {
             "jap": "練習",
-            "romaji": "renshuu",
-            "fr": "entraînement"
+            "romaji": "RENSHÛ",
+            "fr": "l'entraînement"
         },
         {
             "jap": "覚える",
             "romaji": "oboeru",
-            "fr": "se souvenir, retenir"
+            "fr": "se souvenir (retenir)"
         },
         {
             "jap": "教室",
-            "romaji": "kyoushitsu",
-            "fr": "salle de classe"
+            "romaji": "KYÔSHITSU",
+            "fr": "la salle de classe"
         },
         {
             "jap": "答え",
             "romaji": "kotae",
-            "fr": "réponse (à question)"
+            "fr": "la réponse (à une question)"
         },
         {
             "jap": "答える",
             "romaji": "kotaeru",
-            "fr": "répondre (à question)"
+            "fr": "répondre (à une question)"
         },
         {
             "jap": "質問",
-            "romaji": "shitsumon",
-            "fr": "question"
+            "romaji": "SHITSUMON",
+            "fr": "la question"
         },
         {
             "jap": "問題",
-            "romaji": "mondai",
-            "fr": "problème"
+            "romaji": "MONDAI",
+            "fr": "le problème"
         },
         {
             "jap": "鉛筆",
-            "romaji": "enpitsu",
-            "fr": "crayon"
+            "romaji": "ENPITSU",
+            "fr": "le crayon"
         },
         {
             "jap": "定規",
-            "romaji": "jougi",
-            "fr": "règle (pour mesurer)"
+            "romaji": "JÔGI",
+            "fr": "la règle (instrument de mesure)"
         },
         {
             "jap": "詰まらない",
@@ -515,62 +475,42 @@
         {
             "jap": "嫌",
             "romaji": "iya",
-            "fr": "[n'est] pas aimé"
+            "fr": "détestable (qui n'est pas aimé)"
         },
         {
             "jap": "怖い",
             "romaji": "kowai",
-            "fr": "effrayant, apeurant"
+            "fr": "effrayant (apeurant)"
         },
         {
             "jap": "暇",
             "romaji": "hima",
-            "fr": "disponible, libre"
+            "fr": "disponible (temps libre)"
         },
         {
             "jap": "疲れる",
             "romaji": "tsukareru",
-            "fr": "se fatiguer, être fatigué"
+            "fr": "se fatiguer (ou être fatigué)"
         },
         {
             "jap": "橋",
             "romaji": "hashi",
-            "fr": "pont"
+            "fr": "le pont"
         },
         {
             "jap": "村",
             "romaji": "mura",
-            "fr": "village"
+            "fr": "le village"
         },
         {
             "jap": "門",
-            "romaji": "mon",
-            "fr": "portail"
-        },
-        {
-            "jap": "門",
-            "romaji": "kado",
-            "fr": "porte"
+            "romaji": "MON",
+            "fr": "le portail"
         },
         {
             "jap": "出掛ける",
             "romaji": "dekakeru",
-            "fr": "sortir [de chez soi]"
-        },
-        {
-            "jap": "交番",
-            "romaji": "kouban",
-            "fr": "petit commissariat"
-        },
-        {
-            "jap": "階段",
-            "romaji": "kaidan",
-            "fr": "escalier"
-        },
-        {
-            "jap": "図書館",
-            "romaji": "toshokan",
-            "fr": "bibliothèque (lieu)"
+            "fr": "sortir de chez soi"
         },
         {
             "jap": "盗む",
@@ -578,79 +518,69 @@
             "fr": "voler (dérober)"
         },
         {
-            "jap": "お手洗い",
-            "romaji": "otearai",
-            "fr": "les toilettes"
-        },
-        {
-            "jap": "玄関",
-            "romaji": "genkan",
-            "fr": "entrée, vestibule "
-        },
-        {
             "jap": "戸",
             "romaji": "to",
-            "fr": "porte, portière"
+            "fr": "la porte (la portière)"
         },
         {
             "jap": "廊下",
-            "romaji": "rouka",
-            "fr": "couloir"
+            "romaji": "RÔKA",
+            "fr": "le couloir"
         },
         {
             "jap": "止まる",
             "romaji": "tomaru",
-            "fr": "s'arrêter, rester, se percher"
+            "fr": "s'arrêter (ou rester, se percher)"
         },
         {
             "jap": "運転手",
-            "romaji": "untenshu",
-            "fr": "conducteur, chauffeur"
+            "romaji": "UNTENSHU",
+            "fr": "le conducteur (le chauffeur)"
         },
         {
             "jap": "開く",
             "romaji": "aku",
-            "fr": "[s']ouvrir, être ouvert"
+            "fr": "s'ouvrir (ou être ouvert)"
         },
         {
             "jap": "閉まる",
             "romaji": "shimaru",
-            "fr": "[se] fermer, être fermé"
+            "fr": "se fermer (ou être fermé)"
         },
         {
             "jap": "薄い",
             "romaji": "usui",
-            "fr": "mince, fin, peu épais [tout plat]"
+            "fr": "mince (objet plat peu épais)"
         },
         {
             "jap": "細い",
             "romaji": "hosoi",
-            "fr": "fin, mince, menu [petit diamètre]"
+            "fr": "mince (avec un petit diamètre)"
         },
         {
             "jap": "丸い",
             "romaji": "marui",
-            "fr": "rond, circulaire"
+            "fr": "rond (circulaire)"
         },
         {
             "jap": "厚い",
             "romaji": "atsui",
-            "fr": "épais ; chaleureux"
+            "fr": "épais (objet plat)"
         },
         {
             "jap": "太い",
             "romaji": "futoi",
-            "fr": "gros, épais"
+            "fr": "épais (avec un gros diamètre)"
         },
         {
             "jap": "吸う",
             "romaji": "suu",
-            "fr": "aspirer, absorber, fumer "
+            "fr": "aspirer (absorber, fumer…)"
         },
         {
             "jap": "押す",
             "romaji": "osu",
-            "fr": "pousser, appuyer"
+            "fr": "appuyer (pousser)"
         },
         {
             "jap": "切る",
@@ -660,17 +590,17 @@
         {
             "jap": "亡くす",
             "romaji": "nakusu",
-            "fr": "perdre [qn/qch], égarer"
+            "fr": "perdre (qn/qch, ou égarer)"
         },
         {
             "jap": "切手",
             "romaji": "kitte",
-            "fr": "timbre [postal]"
+            "fr": "le timbre (postal)"
         },
         {
             "jap": "鍵",
             "romaji": "kagi",
-            "fr": "clé 🔑"
+            "fr": "la clé"
         },
         {
             "jap": "貼る",
@@ -679,98 +609,93 @@
         },
         {
             "jap": "石鹸",
-            "romaji": "sekken",
-            "fr": "savon"
+            "romaji": "SEKKEN",
+            "fr": "le savon"
         },
         {
             "jap": "箱",
             "romaji": "hako",
-            "fr": "boîte"
+            "fr": "la boîte"
         },
         {
             "jap": "置く",
             "romaji": "oku",
-            "fr": "poser, placer"
+            "fr": "poser (placer)"
         },
         {
             "jap": "葉書",
             "romaji": "hagaki",
-            "fr": "carte postale"
+            "fr": "la carte postale"
         },
         {
             "jap": "封筒",
-            "romaji": "fuutou",
-            "fr": "enveloppe"
+            "romaji": "FÛTÔ",
+            "fr": "l'enveloppe"
         },
         {
             "jap": "上着",
             "romaji": "uwagi",
-            "fr": "veste"
+            "fr": "la veste"
         },
         {
             "jap": "洋服",
-            "romaji": "youfuku",
-            "fr": "vêtement (occidental)"
-        },
-        {
-            "jap": "飴",
-            "romaji": "ame",
-            "fr": "bonbon, sucre d'orge"
+            "romaji": "YÔFUKU",
+            "fr": "le vêtement (occidental)"
         },
         {
             "jap": "背広",
             "romaji": "sebiro",
-            "fr": "costume, veston"
+            "fr": "le veston (complet, costard)"
         },
         {
             "jap": "上手",
-            "romaji": "jouzu",
-            "fr": "adroit, doué, habile"
+            "romaji": "JÔZU",
+            "fr": "doué (adroit, habile)"
         },
         {
             "jap": "下手",
             "romaji": "heta",
-            "fr": "maladroit, peu doué"
+            "fr": "maladroit (peu doué)"
         },
         {
             "jap": "野球",
-            "romaji": "yakyuu",
-            "fr": "baseball"
+            "romaji": "YAKYÛ",
+            "fr": "le baseball"
         },
         {
             "jap": "話",
             "romaji": "hanashi",
-            "fr": "histoire ; conversation"
+            "fr": "l'histoire (ou la conversation)"
         },
         {
             "jap": "頼む",
             "romaji": "tanomu",
-            "fr": "demander ; faire confiance"
+            "fr": "demander (ou faire confiance)"
         },
         {
             "jap": "作文",
-            "romaji": "sakubun",
-            "fr": "composition écrite"
+            "romaji": "SAKUBUN",
+            "fr": "la dissertation (composition écrite)"
         },
         {
             "jap": "文章",
-            "romaji": "bunshou",
-            "fr": "texte, phrase"
+            "romaji": "BUNSHÔ",
+            "fr": "le texte (ou la phrase)"
         },
         {
             "jap": "雑誌",
-            "romaji": "zasshi",
-            "fr": "magazine"
+            "romaji": "ZASSHI",
+            "fr": "le magazine"
         },
         {
             "jap": "渡す",
             "romaji": "watasu",
-            "fr": "remettre [qch à qqn]"
+            "fr": "remettre (qch à qqn)"
         },
         {
             "jap": "返す",
             "romaji": "kaesu",
-            "fr": "rendre, restituer [qch à qqn]"
+            "fr": "restituer (rendre qch à qqn)"
         },
         {
             "jap": "並ぶ",
@@ -785,11 +710,11 @@
         {
             "jap": "風邪",
             "romaji": "kaze",
-            "fr": "rhume"
+            "fr": "le rhume"
         },
         {
             "jap": "風邪を引く",
-            "romaji": "kaze wo hiku",
+            "romaji": "kaze o hiku",
             "fr": "attraper un rhume"
         },
         {
@@ -798,39 +723,29 @@
             "fr": "douloureux"
         },
         {
-            "jap": "頭",
-            "romaji": "atama",
-            "fr": "tête"
-        },
-        {
-            "jap": "足",
-            "romaji": "ashi",
-            "fr": "pied ; jambe"
-        },
-        {
             "jap": "病気",
-            "romaji": "byouki",
-            "fr": "maladie"
+            "romaji": "BYÔKI",
+            "fr": "la maladie"
         },
         {
             "jap": "背",
             "romaji": "se",
-            "fr": "la taille [de qqn] ; le dos"
+            "fr": "la taille (de qqn, ou le dos)"
         },
         {
             "jap": "体",
             "romaji": "karada",
-            "fr": "le corps [de qqn]"
+            "fr": "le corps (de qqn)"
         },
         {
             "jap": "薬",
             "romaji": "kusuri",
-            "fr": "médicament ; drogue"
+            "fr": "le médicament (ou la drogue)"
         },
         {
             "jap": "医者",
-            "romaji": "isha",
-            "fr": "médecin, docteur"
+            "romaji": "ISHA",
+            "fr": "le médecin"
         },
         {
             "jap": "教える",
@@ -839,133 +754,118 @@
         },
         {
             "jap": "会社",
-            "romaji": "kaisha",
-            "fr": "entreprise, firme"
+            "romaji": "KAISHA",
+            "fr": "l'entreprise (la firme)"
         },
         {
             "jap": "町",
             "romaji": "machi",
-            "fr": "ville [petite ou moyenne]"
+            "fr": "la ville (petite ou moyenne)"
         },
         {
             "jap": "予約",
-            "romaji": "yoyaku",
-            "fr": "réservation"
+            "romaji": "YOYAKU",
+            "fr": "la réservation"
         },
         {
             "jap": "準備",
-            "romaji": "junbi",
-            "fr": "préparatif"
+            "romaji": "JUNBI",
+            "fr": "le préparatif"
         },
         {
             "jap": "趣味",
-            "romaji": "shumi",
-            "fr": "loisir, passe-temps"
+            "romaji": "SHUMI",
+            "fr": "le loisir (le passe-temps)"
         },
         {
             "jap": "気持ち",
-            "romaji": "kimochi",
-            "fr": "sensation, sentiment"
-        },
-        {
-            "jap": "警察",
-            "romaji": "keisatsu",
-            "fr": "la police"
+            "romaji": "KImochi",
+            "fr": "la sensation (ou le sentiment)"
         },
         {
             "jap": "海賊",
-            "romaji": "kaizoku",
-            "fr": "pirate"
+            "romaji": "KAIZOKU",
+            "fr": "le pirate"
         },
         {
-            "jap": "十分／充分",
-            "romaji": "juubun",
-            "fr": "suffisant, assez"
-        },
-        {
-            "jap": "耳",
-            "romaji": "mimi",
-            "fr": "oreille"
+            "jap": "十分",
+            "romaji": "JÛBUN",
+            "fr": "suffisant (assez)"
         },
         {
             "jap": "顔",
             "romaji": "kao",
-            "fr": "visage"
+            "fr": "le visage"
         },
         {
             "jap": "磨く",
             "romaji": "migaku",
-            "fr": "polir, brosser"
+            "fr": "brosser (ou polir)"
         },
         {
             "jap": "歯",
             "romaji": "ha",
-            "fr": "dent"
+            "fr": "la dent"
         },
         {
-            "jap": "肥る",
+            "jap": "太る",
             "romaji": "futoru",
-            "fr": "être gros, devenir gros"
+            "fr": "grossir"
         },
         {
             "jap": "痩せる",
             "romaji": "yaseru",
-            "fr": "être mince, mincir"
+            "fr": "mincir"
         },
         {
             "jap": "運動",
-            "romaji": "undou",
-            "fr": "mouvement, exercice, sport"
-        },
-        {
-            "jap": "韓国",
-            "romaji": "kankoku",
-            "fr": "Corée (du Sud)"
+            "romaji": "UNDÔ",
+            "fr": "le mouvement (l'exercice, le sport)"
         },
         {
             "jap": "建物",
             "romaji": "tatemono",
-            "fr": "immeuble, bâtiment"
+            "fr": "le bâtiment (l'immeuble)"
         },
         {
             "jap": "段々",
-            "romaji": "dandan",
-            "fr": "peu à peu, au fur et à mesure"
+            "romaji": "DANDAN",
+            "fr": "petit à petit (au fur et à mesure)"
         },
         {
             "jap": "走る",
             "romaji": "hashiru*",
-            "fr": "courir ; conduire"
+            "fr": "courir (ou conduire)"
         },
         {
             "jap": "体操",
-            "romaji": "taisou",
-            "fr": "gymnastique"
+            "romaji": "TAISÔ",
+            "fr": "la gymnastique"
         },
         {
             "jap": "会場",
-            "romaji": "kaijou",
-            "fr": "salle, lieu de rassemblement"
+            "romaji": "KAIJÔ",
+            "fr": "le lieu de rassemblement"
         },
         {
             "jap": "種目",
-            "romaji": "shumoku",
-            "fr": "catégorie ; épreuve sportive"
+            "romaji": "SHUMOKU",
+            "fr": "l'épreuve sportive"
         },
         {
             "jap": "水泳",
-            "romaji": "suiei",
-            "fr": "natation"
+            "romaji": "SUIÊ",
+            "fr": "la natation"
         },
         {
             "jap": "陸上",
-            "romaji": "rikujou",
-            "fr": "terrestre ; athlétisme"
+            "romaji": "RIKUJÔ",
+            "fr": "la terre (terrestre, pas marin)"
         },
         {
             "jap": "選手",
-            "romaji": "senshu",
-            "fr": "champion, joueur, athlète"
+            "romaji": "SENSHU",
+            "fr": "le joueur (champion, athlète)"
         },
         {
             "jap": "踊る",
@@ -974,103 +874,68 @@
         },
         {
             "jap": "最多",
-            "romaji": "saita",
+            "romaji": "SAITA",
             "fr": "la plupart"
         },
         {
             "jap": "自然",
-            "romaji": "shizen",
-            "fr": "la nature"
+            "romaji": "SHIZEN",
+            "fr": "la nature (naturel)"
         },
         {
             "jap": "表す",
             "romaji": "arawasu",
-            "fr": "exprimer, représenter, figurer"
+            "fr": "exprimer (représenter, figurer)"
         },
         {
             "jap": "鴨",
             "romaji": "kamo",
-            "fr": "canard [en particulier sauvage]"
+            "fr": "le canard (en particulier sauvage)"
         },
         {
             "jap": "家鴨",
             "romaji": "ahiru",
-            "fr": "canard domestique"
+            "fr": "le canard domestique"
         },
         {
             "jap": "必要",
-            "romaji": "hitsuyou",
-            "fr": "nécessaire, nécessité"
-        },
-        {
-            "jap": "米",
-            "romaji": "kome",
-            "fr": "riz"
+            "romaji": "HITSUYÔ",
+            "fr": "la nécessité (nécessaire)"
         },
         {
             "jap": "炊く",
             "romaji": "taku",
-            "fr": "faire cuire [surtout du riz]"
+            "fr": "faire cuire (des grains, e.g. du riz)"
         },
         {
             "jap": "支援",
-            "romaji": "shien",
-            "fr": "aide, soutien"
+            "romaji": "SHIEN",
+            "fr": "l'aide (le soutien)"
         },
         {
             "jap": "払う",
             "romaji": "harau",
-            "fr": "payer, brosser, éloigner"
+            "fr": "payer (ou brosser, éloigner…)"
         },
         {
             "jap": "伝える",
             "romaji": "tsutaeru",
-            "fr": "informer, transmettre"
+            "fr": "informer (transmettre)"
         },
         {
             "jap": "触る",
             "romaji": "sawaru",
-            "fr": "toucher, tâter, palper"
-        },
-        {
-            "jap": "黒",
-            "romaji": "kuro",
-            "fr": "noir 🖤"
-        },
-        {
-            "jap": "緑",
-            "romaji": "midori",
-            "fr": "vert 💚"
-        },
-        {
-            "jap": "紫",
-            "romaji": "murasaki",
-            "fr": "violet 💜"
-        },
-        {
-            "jap": "黄色",
-            "romaji": "kiiro",
-            "fr": "jaune 💛"
-        },
-        {
-            "jap": "誰",
-            "romaji": "dare",
-            "fr": "qui ?"
+            "fr": "toucher (tâter, palper)"
         },
         {
             "jap": "なぜなら",
             "romaji": "nazenara",
-            "fr": "Parce que..."
-        },
-        {
-            "jap": "だけど",
-            "romaji": "dakedo",
-            "fr": "mais, cependant"
+            "fr": "c'est parce que"
         },
         {
             "jap": "就いて",
             "romaji": "tsuite",
-            "fr": "au sujet de, concernant"
+            "fr": "au sujet de (concernant)"
         },
         {
             "jap": "ながら",
@@ -1080,7 +945,7 @@
         {
             "jap": "似る",
             "romaji": "niru",
-            "fr": "ressembler à, être similaire à "
+            "fr": "ressembler à (être similaire à)"
         },
         {
             "jap": "無し",
@@ -1094,393 +959,358 @@
         },
         {
             "jap": "食事",
-            "romaji": "shokuji",
-            "fr": "repas ; le fait de manger"
+            "romaji": "SHOKUJI",
+            "fr": "le repas (ou le fait de manger)"
         },
         {
             "jap": "眠る",
             "romaji": "nemuru",
-            "fr": "dormir ; mourir"
+            "fr": "dormir (ou mourir)"
         },
         {
             "jap": "外出",
-            "romaji": "gaishutsu",
-            "fr": "sortie [de chez soi]"
+            "romaji": "GAISHUTSU",
+            "fr": "la sortie (de chez soi)"
         },
         {
             "jap": "読書",
-            "romaji": "dokusho",
+            "romaji": "DOKUSHO",
             "fr": "lecture"
         },
         {
-            "jap": "向かう",
-            "romaji": "mukau",
-            "fr": "se diriger vers, faire face à"
-        },
-        {
             "jap": "対",
-            "romaji": "tai",
-            "fr": "contre, versus"
+            "romaji": "TAI",
+            "fr": "versus (contre)"
         },
         {
             "jap": "反対",
-            "romaji": "hantai",
-            "fr": "contraire, opposé, hostile"
+            "romaji": "HANTAI",
+            "fr": "contraire (opposé, hostile)"
         },
         {
             "jap": "以外",
-            "romaji": "igai",
-            "fr": "sauf, à l'exception de"
-        },
-        {
-            "jap": "なさい",
-            "romaji": "nasai",
-            "fr": "suffixe verbal impératif"
+            "romaji": "IGAI",
+            "fr": "sauf (à l'exception de)"
         },
         {
             "jap": "成程",
             "romaji": "naruhodo",
-            "fr": "je vois, en effet"
+            "fr": "je vois (en effet)"
         },
         {
             "jap": "日付",
-            "romaji": "hiZuke",
-            "fr": "date"
+            "romaji": "hizuke",
+            "fr": "la date"
         },
         {
             "jap": "季節",
-            "romaji": "kisetsu",
+            "romaji": "KISETSU",
             "fr": "saison"
         },
         {
             "jap": "年代",
-            "romaji": "nendai",
-            "fr": "époque, période [les années...]"
+            "romaji": "NENDAI",
+            "fr": "l'époque (la période)"
         },
         {
             "jap": "瞬間",
-            "romaji": "shunkan",
-            "fr": "moment, instant"
+            "romaji": "SHUNKAN",
+            "fr": "l'instant (le moment)"
         },
         {
             "jap": "数",
             "romaji": "kazu",
-            "fr": "nombre, quantité"
+            "fr": "le nombre (ou la quantité)"
         },
         {
             "jap": "数字",
-            "romaji": "suuji",
-            "fr": "chiffre"
+            "romaji": "SÛJI",
+            "fr": "le chiffre"
         },
         {
             "jap": "元年",
-            "romaji": "gannen",
-            "fr": "première année d'une ère"
+            "romaji": "GANNEN",
+            "fr": "la première année d'une ère"
         },
         {
             "jap": "時代",
-            "romaji": "jidai",
-            "fr": "ère, période, époque"
+            "romaji": "JIDAI",
+            "fr": "l'ère (la période, l'époque)"
         },
         {
             "jap": "世紀",
-            "romaji": "seiki",
-            "fr": "siècle "
+            "romaji": "SÊKI",
+            "fr": "le siècle"
         },
         {
             "jap": "千年紀",
-            "romaji": "sennenki",
-            "fr": "millénaire"
+            "romaji": "SENNENKEN",
+            "fr": "le millénaire"
         },
         {
             "jap": "瞬時",
-            "romaji": "shunji",
-            "fr": "instantané "
+            "romaji": "SHUNJI",
+            "fr": "instantané"
         },
         {
             "jap": "生年月日",
-            "romaji": "seinengappi",
-            "fr": "date de naissance"
-        },
-        {
-            "jap": "現在",
-            "romaji": "genzai",
-            "fr": "actuel, présent, d'aujourd'hui"
+            "romaji": "SÊNENGAPPI",
+            "fr": "la date de naissance"
         },
         {
             "jap": "期間",
-            "romaji": "kikan",
-            "fr": "période"
+            "romaji": "KIKAN",
+            "fr": "la période"
         },
         {
             "jap": "暦",
             "romaji": "koyomi",
-            "fr": "calendrier"
-        },
-        {
-            "jap": "氷",
-            "romaji": "koori",
-            "fr": "glace [eau sous forme solide]"
+            "fr": "le calendrier (ou l'almanach)"
         },
         {
             "jap": "妖精",
-            "romaji": "yousei",
-            "fr": "fée"
+            "romaji": "YÔSÊ",
+            "fr": "la fée"
         },
         {
             "jap": "夫婦",
-            "romaji": "fuufu",
-            "fr": "couple, mari et femme"
+            "romaji": "FÛFU",
+            "fr": "le couple (mari et femme)"
         },
         {
             "jap": "使う",
             "romaji": "tsukau",
-            "fr": "employer, utiliser"
+            "fr": "utiliser (employer)"
         },
         {
             "jap": "作る",
             "romaji": "tsukuru",
-            "fr": "créer, fabriquer, faire"
+            "fr": "fabriquer (créer, faire)"
         },
         {
             "jap": "生徒",
-            "romaji": "seito",
-            "fr": "élève "
-        },
-        {
-            "jap": "外套",
-            "romaji": "gaitou",
-            "fr": "manteau, pardessus"
+            "romaji": "SÊTO",
+            "fr": "l'élève"
         },
         {
             "jap": "袋",
             "romaji": "fukuro",
-            "fr": "sac, sachet"
-        },
-        {
-            "jap": "手袋",
-            "romaji": "tebukuro",
-            "fr": "gant"
-        },
-        {
-            "jap": "襟巻き",
-            "romaji": "erimaki",
-            "fr": "écharpe"
+            "fr": "le sachet"
         },
         {
             "jap": "芸術家",
-            "romaji": "geijutsuka",
-            "fr": "artiste"
+            "romaji": "GÊJUTSUKA",
+            "fr": "l'artiste"
         },
         {
             "jap": "秘書",
-            "romaji": "hisho",
-            "fr": "secrétaire"
+            "romaji": "HISHO",
+            "fr": "le secrétaire"
         },
         {
             "jap": "監督",
-            "romaji": "kantoku",
-            "fr": "réalisateur, directeur, chef..."
+            "romaji": "KANTOKU",
+            "fr": "le directeur (réalisateur, chef…)"
         },
         {
             "jap": "従業員",
-            "romaji": "juugyouin",
-            "fr": "employé, personnel"
+            "romaji": "JÛGYÔIN",
+            "fr": "l'employé (le personnel)"
         },
         {
             "jap": "弁護士",
-            "romaji": "bengoshi",
-            "fr": "avocat [métier]"
+            "romaji": "BENGOSHI",
+            "fr": "l'avocat (métier)"
         },
         {
             "jap": "経歴",
-            "romaji": "keireki",
-            "fr": "carrière, antécédents "
+            "romaji": "KÊREKI",
+            "fr": "la carrière (ou les antécédents)"
         },
         {
             "jap": "追う",
             "romaji": "ou",
-            "fr": "poursuivre, courir après "
+            "fr": "poursuivre (courir après)"
         },
         {
             "jap": "裁判官",
-            "romaji": "saibankan",
-            "fr": "juge, magistrat"
+            "romaji": "SAIBANKAN",
+            "fr": "le juge (magistrat)"
         },
         {
             "jap": "役人",
-            "romaji": "yakunin",
-            "fr": "fonctionnaire, bureaucrate"
+            "romaji": "YAKUNIN",
+            "fr": "le fonctionnaire (bureaucrate)"
         },
         {
             "jap": "として",
             "romaji": "toshite",
-            "fr": "comme, en tant que"
+            "fr": "en tant que (comme)"
         },
         {
             "jap": "守衛",
-            "romaji": "shuei",
-            "fr": "gardien, gardienne"
+            "romaji": "SHUÊ",
+            "fr": "le gardien"
         },
         {
             "jap": "俳優",
-            "romaji": "haiyuu",
-            "fr": "acteur"
+            "romaji": "HAIYÛ",
+            "fr": "l'acteur"
         },
         {
             "jap": "船長",
-            "romaji": "senchou",
-            "fr": "capitaine d'un navire "
+            "romaji": "SENCHÔ",
+            "fr": "le capitaine (d'un navire)"
         },
         {
             "jap": "作家",
-            "romaji": "sakka",
-            "fr": "écrivain"
+            "romaji": "SAKKA",
+            "fr": "l'écrivain"
         },
         {
             "jap": "上司",
-            "romaji": "joushi",
-            "fr": "patron, supérieur hiérarchique"
+            "romaji": "JÔSHI",
+            "fr": "le patron (supérieur hiérarchique)"
         },
         {
             "jap": "職業",
-            "romaji": "shokugyou",
-            "fr": "profession, métier"
+            "romaji": "SHOKUGYÔ",
+            "fr": "la profession (le métier)"
         },
         {
             "jap": "兵士",
-            "romaji": "heishi",
-            "fr": "soldat"
+            "romaji": "HÊSHI",
+            "fr": "le soldat"
         },
         {
             "jap": "農民",
-            "romaji": "noumin",
-            "fr": "fermier, paysan"
+            "romaji": "NÔMIN",
+            "fr": "le fermier (ou le paysan)"
         },
         {
             "jap": "料理人",
-            "romaji": "ryourinin",
-            "fr": "cuisinier"
+            "romaji": "RYÔRININ",
+            "fr": "le cuisinier"
         },
         {
             "jap": "技術者",
-            "romaji": "gijutsusha",
-            "fr": "technicien"
+            "romaji": "GIJUTSUSHA",
+            "fr": "le technicien"
         },
         {
             "jap": "建築家",
-            "romaji": "kenchikuka",
-            "fr": "architecte "
+            "romaji": "KENCHIKUKA",
+            "fr": "l'architecte"
         },
         {
             "jap": "感謝",
-            "romaji": "kansha",
-            "fr": "remerciement"
+            "romaji": "KANSHA",
+            "fr": "le remerciement"
         },
         {
             "jap": "最後",
-            "romaji": "saigo",
-            "fr": "dernier, final, le plus récent "
+            "romaji": "SAIGO",
+            "fr": "le plus récent (dernier, final)"
         },
         {
             "jap": "公式",
-            "romaji": "koushiki",
-            "fr": "officiel ; formule [math.]"
+            "romaji": "KÔSHIKI",
+            "fr": "officiel (ou la formule mathématique)"
         },
         {
             "jap": "軍",
-            "romaji": "gun",
-            "fr": "armée "
+            "romaji": "GUN",
+            "fr": "l'armée"
         },
         {
             "jap": "自立",
-            "romaji": "jiritsu",
-            "fr": "l'indépendance"
+            "romaji": "JIRITSU",
+            "fr": "l'indépendance (l'autonomie)"
         },
         {
             "jap": "責任",
-            "romaji": "sekinin",
-            "fr": "responsabilité "
+            "romaji": "SEKININ",
+            "fr": "la responsabilité"
         },
         {
             "jap": "作者",
-            "romaji": "sakusha",
-            "fr": "auteur"
+            "romaji": "SAKUSHA",
+            "fr": "l'auteur (d'une œuvre)"
         },
         {
             "jap": "現代的",
-            "romaji": "gendaiteki",
+            "romaji": "GENDAITEKI",
             "fr": "moderne"
         },
         {
             "jap": "普通",
-            "romaji": "futsuu",
-            "fr": "normal, banal"
+            "romaji": "FUTSÛ",
+            "fr": "normal (banal)"
         },
         {
             "jap": "年齢",
-            "romaji": "nenrei",
-            "fr": "âge, années "
+            "romaji": "NENRÊ",
+            "fr": "l'âge (d'une personne)"
         },
         {
             "jap": "最低",
-            "romaji": "saitei",
-            "fr": "minimum"
+            "romaji": "SAITÊ",
+            "fr": "minimum (le plus bas, le pire)"
         },
         {
             "jap": "肯定的",
-            "romaji": "kouteiteki",
-            "fr": "affirmatif "
+            "romaji": "KÔTÊTEKI",
+            "fr": "affirmatif"
         },
         {
             "jap": "完璧",
-            "romaji": "kanpeki",
-            "fr": "parfait "
+            "romaji": "KANPEKI",
+            "fr": "parfait (infaillible, complet)"
         },
         {
             "jap": "素晴らしい",
             "romaji": "subarashii",
-            "fr": "superbe, fantastique"
+            "fr": "superbe (fantastique)"
         },
         {
             "jap": "前向き",
             "romaji": "maemuki",
-            "fr": "en avant, vers l'avant "
+            "fr": "en avant (vers l'avant)"
         },
         {
             "jap": "人間",
-            "romaji": "ningen",
-            "fr": "un être humain, une personne "
+            "romaji": "NINGEN",
+            "fr": "l'être humain (une personne)"
         },
         {
             "jap": "教養",
-            "romaji": "kyouyou",
-            "fr": "culture, éducation "
+            "romaji": "KYÔYÔ",
+            "fr": "la culture (l'éducation)"
         },
         {
             "jap": "文化",
-            "romaji": "bunka",
-            "fr": "culture, civilisation "
+            "romaji": "BUNKA",
+            "fr": "la culture (la civilisation)"
         },
         {
             "jap": "歴史",
-            "romaji": "rekishi",
+            "romaji": "REKISHI",
             "fr": "l'Histoire"
         },
         {
             "jap": "伝統",
-            "romaji": "dentou",
-            "fr": "tradition"
+            "romaji": "DENTÔ",
+            "fr": "la tradition"
         },
         {
             "jap": "間違い",
             "romaji": "machigai",
-            "fr": "erreur, faute"
+            "fr": "l'erreur (la faute)"
         },
         {
             "jap": "間違う",
             "romaji": "machigau",
-            "fr": "avoir tort, se tromper"
+            "fr": "avoir tort (se tromper)"
         },
         {
             "jap": "深い",
@@ -1489,37 +1319,37 @@
         },
         {
             "jap": "興味",
-            "romaji": "kyoumi",
-            "fr": "intérêt, attirance "
+            "romaji": "KYÔMI",
+            "fr": "l'intérêt (l'attrait envers un sujet)"
         },
         {
             "jap": "真剣",
-            "romaji": "shinken",
-            "fr": "sérieux, sincère "
+            "romaji": "SHINKEN",
+            "fr": "sérieux (sincère)"
         },
         {
             "jap": "信心",
-            "romaji": "shinjin",
-            "fr": "piété, foi, dévotion"
+            "romaji": "SHINJIN",
+            "fr": "la piété (foi, dévotion)"
         },
         {
             "jap": "大した",
-            "romaji": "taishita",
-            "fr": "important, considérable"
+            "romaji": "TAIshita",
+            "fr": "important (considérable)"
         },
         {
             "jap": "お馴染み",
             "romaji": "onajimi",
-            "fr": "familier, bien connu "
+            "fr": "familier (bien connu)"
         },
         {
             "jap": "否定",
-            "romaji": "hitei",
-            "fr": "négation, démenti, déni"
+            "romaji": "HITÊ",
+            "fr": "la négation (le démenti, le déni)"
         },
         {
             "jap": "可能",
-            "romaji": "kanou",
+            "romaji": "KANÔ",
             "fr": "possible"
         },
         {
@@ -1529,18 +1359,18 @@
         },
         {
             "jap": "有能",
-            "romaji": "yuunou",
-            "fr": "compétent, efficace"
+            "romaji": "YÛNÔ",
+            "fr": "compétent (efficace)"
         },
         {
             "jap": "効率",
-            "romaji": "kouritsu",
-            "fr": "efficacité, rendement "
+            "romaji": "KÔRITSU",
+            "fr": "l'efficacité (le rendement)"
         },
         {
             "jap": "値段",
-            "romaji": "nedan",
-            "fr": "prix, coût "
+            "romaji": "neDAN",
+            "fr": "le prix (le coût)"
         },
         {
             "jap": "悲しい",
@@ -1550,292 +1380,292 @@
         {
             "jap": "怖がる",
             "romaji": "kowagaru",
-            "fr": "avoir peur, redouter"
+            "fr": "avoir peur (redouter)"
         },
         {
             "jap": "頻繁",
-            "romaji": "hinpan",
-            "fr": "souvent, fréquemment "
+            "romaji": "HINPAN",
+            "fr": "souvent (fréquemment)"
         },
         {
             "jap": "木製",
-            "romaji": "mokusei",
+            "romaji": "MOKUSÊ",
             "fr": "en bois"
         },
         {
             "jap": "大抵",
-            "romaji": "taitei",
-            "fr": "habituellement, généralement"
+            "romaji": "TAITÊ",
+            "fr": "habituellement (généralement)"
         },
         {
             "jap": "本物",
-            "romaji": "honmono",
-            "fr": "vrai, authentique"
+            "romaji": "HONmono",
+            "fr": "authentique (vrai, ≠ falsifié)"
         },
         {
             "jap": "個人",
-            "romaji": "kojin",
-            "fr": "individu"
+            "romaji": "KOJIN",
+            "fr": "l'individu"
         },
         {
             "jap": "特別",
-            "romaji": "tokubetsu",
-            "fr": "particulier, spécial "
+            "romaji": "TOKUBETSU",
+            "fr": "spécial (particulier)"
         },
         {
             "jap": "地元",
-            "romaji": "jimoto",
-            "fr": "local, régional "
+            "romaji": "JImoto",
+            "fr": "local (régional)"
         },
         {
             "jap": "現地",
-            "romaji": "genchi",
-            "fr": "lieu, endroit [sur place, du coin]"
+            "romaji": "GENCHI",
+            "fr": "lieu (sur place, du coin)"
         },
         {
             "jap": "主",
             "romaji": "omo",
-            "fr": "principal [adj.]"
+            "fr": "principal (le plus important)"
         },
         {
             "jap": "最近",
-            "romaji": "saikin",
-            "fr": "dernièrement, récemment"
+            "romaji": "SAIKIN",
+            "fr": "dernièrement (récemment)"
         },
         {
             "jap": "汚い",
             "romaji": "kitanai",
-            "fr": "sale, dégoûtant "
+            "fr": "sale"
         },
         {
             "jap": "合法",
-            "romaji": "gouhou",
-            "fr": "légalité, légitimité"
+            "romaji": "GÔHÔ",
+            "fr": "la légalité (ou la légitimité)"
         },
         {
             "jap": "清潔",
-            "romaji": "seiketsu",
-            "fr": "propre, sain, hygiénique"
+            "romaji": "SÊKETSU",
+            "fr": "propre (sain, hygiénique)"
         },
         {
             "jap": "異なる",
             "romaji": "kotonaru",
-            "fr": "être différent de, diverger"
+            "fr": "diverger (être différent de)"
         },
         {
             "jap": "人気",
-            "romaji": "ninki",
-            "fr": "popularité, célébrité "
+            "romaji": "NINKI",
+            "fr": "la popularité (célébrité)"
         },
         {
             "jap": "現存",
-            "romaji": "genzon",
-            "fr": "existence ; en vie"
+            "romaji": "GENZON",
+            "fr": "existence (en vie)"
         },
         {
             "jap": "手が空く",
             "romaji": "te ga aku",
-            "fr": "être libre, disponible"
+            "fr": "être disponible (avoir le temps)"
         },
         {
             "jap": "有り得る",
             "romaji": "arieru",
-            "fr": "être fort probable, possible"
+            "fr": "être fort probable"
         },
         {
             "jap": "重要",
-            "romaji": "juuyou",
-            "fr": "important, primordial "
+            "romaji": "JÛYÔ",
+            "fr": "important (primordial)"
         },
         {
             "jap": "最終",
-            "romaji": "saishuu",
+            "romaji": "SAISHÛ",
             "fr": "la toute fin"
         },
         {
             "jap": "独立",
-            "romaji": "dokuritsu",
-            "fr": "indépendance "
+            "romaji": "DOKURITSU",
+            "fr": "l(indépendance (la séparation)"
         },
         {
             "jap": "丸ごと",
             "romaji": "marugoto",
-            "fr": "entièrement, dans sa totalité "
+            "fr": "entièrement (dans sa totalité)"
         },
         {
             "jap": "変わる",
             "romaji": "kawaru",
-            "fr": "changer ; être inhabituel"
+            "fr": "changer (ou être inhabituel)"
         },
         {
             "jap": "助ける",
             "romaji": "tasukeru",
-            "fr": "aider, secourir, sauver"
+            "fr": "aider (secourir, sauver)"
         },
         {
             "jap": "呼ぶ",
             "romaji": "yobu",
-            "fr": "appeler ; inviter"
+            "fr": "appeler (ou inviter)"
         },
         {
             "jap": "考える",
             "romaji": "kangaeru",
-            "fr": "penser, réfléchir"
+            "fr": "réfléchir (penser)"
         },
         {
             "jap": "差し出す",
             "romaji": "sashidasu",
-            "fr": "offrir, présenter "
+            "fr": "offrir (présenter, envoyer)"
         },
         {
             "jap": "提供",
-            "romaji": "teikyou",
-            "fr": "proposition, mécénat "
+            "romaji": "TÊKYÔ",
+            "fr": "la proposition (mécénat)"
         },
         {
             "jap": "望む",
             "romaji": "nozomu",
-            "fr": "espérer, désirer, souhaiter"
+            "fr": "espérer (désirer, souhaiter)"
         },
         {
             "jap": "試す",
             "romaji": "tamesu",
-            "fr": "essayer, tenter, tester"
+            "fr": "essayer (tenter, tester)"
         },
         {
             "jap": "試着",
             "romaji": "shichaku",
-            "fr": "essayage (d'un vêtement)"
+            "fr": "l'essayage (d'un vêtement)"
         },
         {
             "jap": "作品",
-            "romaji": "sakuhin",
-            "fr": "œuvre"
+            "romaji": "SAKUHIN",
+            "fr": "l'œuvre"
         },
         {
             "jap": "発表",
-            "romaji": "happyou",
-            "fr": "annonce, présentation orale"
+            "romaji": "HAPPYÔ",
+            "fr": "l'annonce (publication, présentation)"
         },
         {
             "jap": "含む",
             "romaji": "fukumu",
-            "fr": "inclure, contenir"
+            "fr": "inclure (contenir)"
         },
         {
             "jap": "尋ねる",
             "romaji": "tazuneru",
-            "fr": "demander, chercher, enquêter"
+            "fr": "demander (chercher, enquêter)"
         },
         {
             "jap": "止める",
             "romaji": "tomeru",
-            "fr": "stopper [qn/qch] ; se concentrer sur"
+            "fr": "arrêter (stopper qqn/qqch)"
         },
         {
             "jap": "付ける",
             "romaji": "tsukeru",
-            "fr": "coller, attacher, accrocher"
+            "fr": "coller (attacher, accrocher)"
         },
         {
             "jap": "印",
             "romaji": "shirushi",
-            "fr": "marque, symbole"
+            "fr": "la marque (symbole)"
         },
         {
             "jap": "気分",
-            "romaji": "kibun",
-            "fr": "humeur, disposition"
+            "romaji": "KIBUN",
+            "fr": "l'humeur (la disposition)"
         },
         {
             "jap": "失敗",
-            "romaji": "shippai",
-            "fr": "échec, défaite"
+            "romaji": "SHIPPAI",
+            "fr": "l'échec (la défaite)"
         },
         {
             "jap": "信じる",
-            "romaji": "shinjiru",
-            "fr": "croire, faire confiance à "
+            "romaji": "SHINjiru",
+            "fr": "croire (faire confiance à qqn)"
         },
         {
             "jap": "希望",
-            "romaji": "kibou",
-            "fr": "espoir, désir "
+            "romaji": "KIBÔ",
+            "fr": "l'espoir (le désir)"
         },
         {
             "jap": "合格",
-            "romaji": "goukaku",
-            "fr": "succès [à exam], admission"
+            "romaji": "GÔKAKU",
+            "fr": "l'admission (le succès à un examen)"
         },
         {
             "jap": "どうか",
             "romaji": "douka",
-            "fr": "s'il te/vous plaît, par pitié "
+            "fr": "s'il vous plaît (langage poli)"
         },
         {
             "jap": "回答",
-            "romaji": "kaitou",
-            "fr": "réponse"
+            "romaji": "KAITÔ",
+            "fr": "la réponse (la réplique)"
         },
         {
             "jap": "検討",
-            "romaji": "kentou",
-            "fr": "étude, considération de la question"
+            "romaji": "KENTÔ",
+            "fr": "l'investigation"
         },
         {
             "jap": "見做す",
             "romaji": "minasu",
-            "fr": "considérer comme, passer pour"
+            "fr": "considérer (… comme étant …)"
         },
         {
             "jap": "決して",
             "romaji": "kesshite",
-            "fr": "jamais, pas du tout"
+            "fr": "pas du tout"
         },
         {
             "jap": "唯",
             "romaji": "tada",
-            "fr": "simple, banal, ordinaire"
+            "fr": "ordinaire (simple, banal)"
         },
         {
             "jap": "過ぎ",
             "romaji": "sugi",
-            "fr": "au-delà de ; trop, en excès "
+            "fr": "au-delà (trop, en excès)"
         },
         {
             "jap": "相変わらず",
             "romaji": "aikawarazu",
-            "fr": "comme d'habitude, invariablement"
+            "fr": "comme d'habitude (invariablement)"
         },
         {
             "jap": "離れる",
             "romaji": "hanareru",
-            "fr": "quitter, s'éloigner, être séparé de"
+            "fr": "quitter (s'éloigner, être séparé de)"
         },
         {
             "jap": "既に",
             "romaji": "sude ni",
-            "fr": "déjà "
+            "fr": "déjà"
         },
         {
             "jap": "再",
-            "romaji": "sai",
-            "fr": "re-, à nouveau "
+            "romaji": "SAI",
+            "fr": "à nouveau (re-)"
         },
         {
             "jap": "後で",
             "romaji": "ato de",
-            "fr": "plus tard, dans un instant, tout à l'heure"
+            "fr": "plus tard (dans un instant, tout à l'heure)"
         },
         {
             "jap": "殆ど",
             "romaji": "hotondo",
-            "fr": "presque, pratiquement"
+            "fr": "presque (pratiquement)"
         },
         {
             "jap": "特に",
-            "romaji": "toku ni",
-            "fr": "particulièrement ; surtout"
+            "romaji": "TOKU ni",
+            "fr": "particulièrement (surtout)"
         },
         {
             "jap": "遂に",
@@ -1844,18 +1674,18 @@
         },
         {
             "jap": "一般的",
-            "romaji": "ippanteki",
-            "fr": "ordinaire, général, ordinaire "
+            "romaji": "IPPANTEKI",
+            "fr": "ordinaire (général)"
         },
         {
             "jap": "容易",
-            "romaji": "youi",
-            "fr": "facile"
+            "romaji": "YÔI",
+            "fr": "facile (avec simplicité)"
         },
         {
             "jap": "大体",
-            "romaji": "daitai",
-            "fr": "en gros, à peu près ; en général"
+            "romaji": "DAITAI",
+            "fr": "en gros (à peu près, en général)"
         },
         {
             "jap": "はっきり",
