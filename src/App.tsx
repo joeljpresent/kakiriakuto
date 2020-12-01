@@ -9,20 +9,26 @@ class App extends React.Component<Props, State> {
 
     this.state = {
       selectedVocab: 0,
-      pageType: 0,
+      pageType: PageType.FrontPage,
     }
   }
 
   handleChangeVocab = (event: React.ChangeEvent<HTMLSelectElement>) => {
     this.setState({
       selectedVocab: Number.parseInt(event.target.value, 10) ?? 0,
-      pageType: PageType.VocabularyList,
+      pageType: PageType.FrontPage,
     });
   }
 
-  handleChangePageType = (event: React.ChangeEvent<HTMLSelectElement>) => {
+  handleChoosePageType = (event: React.ChangeEvent<HTMLSelectElement>) => {
     this.setState({
-      pageType: Number.parseInt(event.target.value, 10) ?? 0,
+      pageType: Number.parseInt(event.target.value, 10) ?? PageType.FrontPage,
+    });
+  }
+
+  handleResetPageType = (event: React.MouseEvent<HTMLInputElement>) => {
+    this.setState({
+      pageType: PageType.FrontPage,
     });
   }
 
@@ -35,11 +41,15 @@ class App extends React.Component<Props, State> {
             <option value={index} key={index}>{vocab.title}</option>
           )
         }</select>
-        <select value={this.state.pageType} onChange={this.handleChangePageType}>{
-          PAGE_TYPES.map((pageType, index) =>
-            <option value={index} key={index}>{pageType}</option>
-          )
-        }</select>
+        {
+          this.state.pageType === PageType.FrontPage
+          ? <select value={this.state.pageType} onChange={this.handleChoosePageType}>{
+              PAGE_TYPES.map((pageType, index) =>
+                <option value={index} key={index}>{pageType}</option>
+              )
+              }</select>
+          : <input type="button" value="← Retour" onClick={this.handleResetPageType} />
+        }
         <MainContent selectedVocab={this.state.selectedVocab} pageType={this.state.pageType} />
       </header>
     );

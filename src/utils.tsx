@@ -44,6 +44,7 @@ export type VocabLine = {
  * (i.e., page types must be listed in the same order in this enum as in `PAGE_TYPES`).
  */
 export enum PageType {
+    FrontPage,
     VocabularyList,
     FrToJap,
     FrToRomaji,
@@ -54,6 +55,7 @@ export enum PageType {
  * Names of page types, listed in the same order as in enum `PageType`.
  */
 export const PAGE_TYPES = [
+    "Page de garde",
     "Fiche de vocabulaire",
     "Exercice FR → 日本語",
     "Exercice FR → RÔMAJI",
