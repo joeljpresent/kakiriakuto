@@ -1,8 +1,10 @@
 # KakiRiakuto
 
-Some shameless plagiarism of [KaKiKuKeKo.fr][k5] using ReactJS.
+*Some shameless plagiarism of [KaKiKuKeKo.fr][k5] using ReactJS*.
 
-This is a toy project and I don't plan to expand on it at the moment.
+[KaKiKuKeKo.fr][k5] is a website created by Florian Delmas that allows French-speaking learners of Japanese to learn and revize Japanese vocabulary.
+
+KakiRiakuto (かきリアクト) is just a toy project replicating the base idea of the website and I don't plan to expand on it at the moment.
 
 Joël J. Présent © ジョエル・Ｊ・プレザン
 
