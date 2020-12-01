@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kakiriakuto/static/css/main.865cad58.chunk.css",
-    "main.js": "/kakiriakuto/static/js/main.f135f3ac.chunk.js",
-    "main.js.map": "/kakiriakuto/static/js/main.f135f3ac.chunk.js.map",
+    "main.js": "/kakiriakuto/static/js/main.8742ba84.chunk.js",
+    "main.js.map": "/kakiriakuto/static/js/main.8742ba84.chunk.js.map",
     "runtime-main.js": "/kakiriakuto/static/js/runtime-main.3ff6677a.js",
     "runtime-main.js.map": "/kakiriakuto/static/js/runtime-main.3ff6677a.js.map",
     "static/js/2.0cf6d125.chunk.js": "/kakiriakuto/static/js/2.0cf6d125.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.d9eec844.chunk.js": "/kakiriakuto/static/js/3.d9eec844.chunk.js",
     "static/js/3.d9eec844.chunk.js.map": "/kakiriakuto/static/js/3.d9eec844.chunk.js.map",
     "index.html": "/kakiriakuto/index.html",
-    "precache-manifest.ab02ff16fc63e2fc15faccf714a0f49a.js": "/kakiriakuto/precache-manifest.ab02ff16fc63e2fc15faccf714a0f49a.js",
+    "precache-manifest.0b3cdc9b62f3f48d1d8df207825c347c.js": "/kakiriakuto/precache-manifest.0b3cdc9b62f3f48d1d8df207825c347c.js",
     "service-worker.js": "/kakiriakuto/service-worker.js",
     "static/css/main.865cad58.chunk.css.map": "/kakiriakuto/static/css/main.865cad58.chunk.css.map",
     "static/js/2.0cf6d125.chunk.js.LICENSE.txt": "/kakiriakuto/static/js/2.0cf6d125.chunk.js.LICENSE.txt"
@@ -19,6 +19,6 @@
     "static/js/runtime-main.3ff6677a.js",
     "static/js/2.0cf6d125.chunk.js",
     "static/css/main.865cad58.chunk.css",
-    "static/js/main.f135f3ac.chunk.js"
+    "static/js/main.8742ba84.chunk.js"
   ]
 }
