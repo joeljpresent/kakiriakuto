@@ -11,8 +11,13 @@
         {
             "fr": "non",
             "jap": "いいえ",
-            "romaji": "iie",
+            "romaji": "îe",
             "pitch": "イ／ーエ＼"
+        },
+        {
+            "fr": "objets cylindriques (classificateur numéral)",
+            "jap": "〜本",
+            "romaji": "-HON"
         },
         {
             "fr": "le lapin (animal)",

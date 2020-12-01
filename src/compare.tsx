@@ -1,5 +1,13 @@
+function sanitizeJap(txt: string) {
+    return txt.replace(/[\s〜]/g, "");
+}
+
+export function jap(input: string, expected: string) {
+    return sanitizeJap(input) === sanitizeJap(expected);
+}
+
 function sanitizeRomaji(txt: string) {
-    return txt.replace(/[\s\*\-]/g, "");
+    return txt.replace(/[\s*-]/g, "");
 }
 
 export function romaji(input: string, expected: string) {
