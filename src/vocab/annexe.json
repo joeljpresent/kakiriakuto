@@ -598,14 +598,294 @@
             "fr": "environ (adverbe d'approximation)"
         },
         {
+            "jap": "お好み焼き",
+            "romaji": "okonomiyaki",
+            "fr": "l'okoyonimaki (cuisine japonaise)"
+        },
+        {
+            "jap": "大人",
+            "romaji": "otona",
+            "fr": "l'adulte"
+        },
+        {
+            "jap": "曲",
+            "romaji": "KYOKU",
+            "fr": "le morceau de musique"
+        },
+        {
+            "jap": "たこ焼き",
+            "romaji": "takoyaki",
+            "fr": "le takoyaki (cuisine japonaise)"
+        },
+        {
+            "jap": "料理",
+            "romaji": "RYÔRI",
+            "fr": "la cuisine (l'art culinaire)"
+        },
+        {
+            "jap": "太る",
+            "romaji": "futoru",
+            "fr": "grossir"
+        },
+        {
+            "jap": "〜輪",
+            "romaji": "RIN",
+            "fr": "roues et fleurs (classificateur numéral)"
+        },
+        {
+            "jap": "住む",
+            "romaji": "sumu",
+            "fr": "habiter (verbe de présence)"
+        },
+        {
+            "jap": "泊まる",
+            "romaji": "tomaru",
+            "fr": "passer une nuit (verbe de présence)"
+        },
+        {
             "jap": "白鳥",
             "romaji": "HAKUCHÔ",
             "fr": "le cygne"
         },
         {
+            "jap": "火山",
+            "romaji": "KAZAN",
+            "fr": "le volcan"
+        },
+        {
+            "jap": "楽器",
+            "romaji": "GAKKI",
+            "fr": "l'instrument de musique"
+        },
+        {
+            "jap": "発表",
+            "romaji": "HAPPYÔ",
+            "fr": "l'annonce"
+        },
+        {
+            "jap": "王室",
+            "romaji": "ÔSHITSU",
+            "fr": "la famille royale"
+        },
+        {
+            "jap": "キーホルダー",
+            "romaji": "KÎHÔRUDÂ",
+            "fr": "le porte-clés"
+        },
+        {
+            "jap": "中身",
+            "romaji": "nakami",
+            "fr": "le contenu"
+        },
+        {
+            "jap": "ぬいぐるみ",
+            "romaji": "nuigurumi",
+            "fr": "la peluche"
+        },
+        {
+            "jap": "フィギュア",
+            "romaji": "FIGYUA",
+            "fr": "la figurine"
+        },
+        {
+            "jap": "紅葉狩り",
+            "romaji": "momijigari",
+            "fr": "le momijigari (fêtes des feuilles rouges d'érable)"
+        },
+        {
+            "jap": "野生動物",
+            "romaji": "YASÊDÔBUTSU",
+            "fr": "l'animal sauvage"
+        },
+        {
+            "jap": "練習",
+            "romaji": "RENSHÛ",
+            "fr": "l'entraînement"
+        },
+        {
+            "jap": "続く",
+            "romaji": "tsuzuku",
+            "fr": "continuer (intr.)"
+        },
+        {
+            "jap": "高校",
+            "romaji": "KÔKÔ",
+            "fr": "le lycée"
+        },
+        {
+            "jap": "高校生",
+            "romaji": "KÔKÔSÊ",
+            "fr": "le lycéen"
+        },
+        {
+            "jap": "やっぱり",
+            "romaji": "yappari",
+            "fr": "comme on pouvait s'y attendre (forme orale)"
+        },
+        {
+            "jap": "技術者",
+            "romaji": "GIJUTSUSHA",
+            "fr": "l'ingénieur"
+        },
+        {
+            "jap": "攻撃",
+            "romaji": "KÔGEKI",
+            "fr": "l'attaque"
+        },
+        {
+            "jap": "最後",
+            "romaji": "SAIGO",
+            "fr": "la toute fin"
+        },
+        {
+            "jap": "槍",
+            "romaji": "yari",
+            "fr": "la lance"
+        },
+        {
+            "jap": "直す",
+            "romaji": "naosu",
+            "fr": "réparer"
+        },
+        {
+            "jap": "戦士",
+            "romaji": "SENSHI",
+            "fr": "le guerrier"
+        },
+        {
+            "jap": "客",
+            "romaji": "KYAKU",
+            "fr": "le client"
+        },
+        {
+            "jap": "わがまま",
+            "romaji": "wagamama",
+            "fr": "l'égoïsme"
+        },
+        {
+            "jap": "栄養士",
+            "romaji": "ÊYÔSHI",
+            "fr": "le diététicien"
+        },
+        {
+            "jap": "エスカルゴ",
+            "romaji": "ESUKARUGO",
+            "fr": "les escargots de Bourgogne (cuisine française)"
+        },
+        {
+            "jap": "子猫",
+            "romaji": "koneko",
+            "fr": "le chaton"
+        },
+        {
+            "jap": "小学生",
+            "romaji": "SHÔGAKUSÊ",
+            "fr": "l'écolier (école primaire)"
+        },
+        {
+            "jap": "目的",
+            "romaji": "MOKUTEKI",
+            "fr": "l'objectif (le but)"
+        },
+        {
+            "jap": "本屋",
+            "romaji": "HON'ya",
+            "fr": "la librairie"
+        },
+        {
+            "jap": "作家",
+            "romaji": "sakka",
+            "fr": "l'écrivain"
+        },
+        {
+            "jap": "スーツ",
+            "romaji": "SÛTSU",
+            "fr": "le costume (complet-veston)"
+        },
+        {
+            "jap": "花屋",
+            "romaji": "hanaya",
+            "fr": "le fleuriste"
+        },
+        {
+            "jap": "〜着",
+            "romaji": "CHAKU",
+            "fr": "costumes (classificateur numéral)"
+        },
+        {
+            "jap": "閣下",
+            "romaji": "KAKKA",
+            "fr": "Excellence (titre honorifique)"
+        },
+        {
+            "jap": "大統領",
+            "romaji": "DAITÔRYÔ",
+            "fr": "le président de la République (titre non-honorifique)"
+        },
+        {
+            "jap": "趣味",
+            "romaji": "SHUMI",
+            "fr": "le loisir"
+        },
+        {
+            "jap": "礼",
+            "romaji": "RÊ",
+            "fr": "la gratitude"
+        },
+        {
+            "jap": "返事",
+            "romaji": "HENJI",
+            "fr": "la réponse (le retour)"
+        },
+        {
+            "jap": "医者",
+            "romaji": "ISHA",
+            "fr": "le médecin"
+        },
+        {
+            "jap": "運命",
+            "romaji": "UNMÊ",
+            "fr": "le destin"
+        },
+        {
+            "jap": "読書",
+            "romaji": "DOKUSHO",
+            "fr": "la lecture"
+        },
+        {
+            "jap": "湯",
+            "romaji": "yu",
+            "fr": "l'eau chaude"
+        },
+        {
+            "jap": "決める",
+            "romaji": "kimeru",
+            "fr": "décider"
+        },
+        {
+            "jap": "注ぐ",
+            "romaji": "sosogu",
+            "fr": "verser"
+        },
+        {
+            "jap": "風呂に入る",
+            "romaji": "FURO ni hairu*",
+            "fr": "prendre un bain"
+        },
+        {
+            "jap": "大丈夫だ",
+            "romaji": "DAIJÔBU da",
+            "fr": "pas de problème (expression)"
+        },
+        {
+            "jap": "社長",
+            "romaji": "SHACHÔ",
+            "fr": "le PDG (titre non-honorifique)"
+        },
+        {
             "jap": "具合",
             "romaji": "GUai",
-            "fr": "l'état (la condition, e.g. de santé)"
+            "fr": "la santé"
         }
     ]
 }
