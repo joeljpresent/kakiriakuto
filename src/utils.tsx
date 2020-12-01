@@ -37,6 +37,12 @@ export type VocabLine = {
     pitch?: string;
 };
 
+/**
+ * Enumeration for all possible page types for vocabulary courses.
+ *
+ * Please note that this enum must be synchronized with the constant `PAGE_TYPES`
+ * (i.e., page types must be listed in the same order in this enum as in `PAGE_TYPES`).
+ */
 export enum PageType {
     VocabularyList,
     FrToJap,
@@ -44,6 +50,9 @@ export enum PageType {
     JapToFr,
 }
 
+/**
+ * Names of page types, listed in the same order as in enum `PageType`.
+ */
 export const PAGE_TYPES = [
     "Fiche de vocabulaire",
     "Exercice FR → 日本語",
