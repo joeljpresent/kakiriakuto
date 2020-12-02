@@ -47,7 +47,7 @@ class App extends React.Component<Props, State> {
               PAGE_TYPES.map((pageType, index) =>
                 <option value={index} key={index}>{pageType}</option>
               )
-              }</select>
+            }</select>
           : <input type="button" value="← Retour" onClick={this.handleResetPageType} />
         }
         <MainContent selectedVocab={this.state.selectedVocab} pageType={this.state.pageType} />

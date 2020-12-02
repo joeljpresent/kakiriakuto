@@ -12,10 +12,11 @@ class MainContent extends React.Component<Props, State> {
                 {
                     VOCABS[this.props.selectedVocab].video_id == null
                     ? <p>Ce cours de vocabulaire n'a pas de vidéo associée.</p>
-                    : <iframe width="560" height="315"
+                    : <iframe width="560" height="315" title="Vidéo du cours de vocabulaire"
                         src={`https://www.youtube.com/embed/${VOCABS[this.props.selectedVocab].video_id}`}
                         frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                            gyroscope; picture-in-picture" allowFullScreen
                       ></iframe>
                 }
             </div>);
