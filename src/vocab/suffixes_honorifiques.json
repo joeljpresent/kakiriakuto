@@ -1,0 +1,97 @@
+{
+    "$schema": "./_schema.json",
+    "title": "Les suffixes honorifiques",
+    "video_id": "xc4-31UMtNw",
+    "words": [
+      {
+        "jap": "〜さん",
+        "romaji": "-san",
+        "fr": "respectueux et répandu (suffixe honorifique)"
+      },
+      {
+        "jap": "〜様",
+        "romaji": "-sama",
+        "fr": "personne plus haut placée que soi (suffixe honorifique)"
+      },
+      {
+        "jap": "〜君",
+        "romaji": "-KUN",
+        "fr": "homme de statut inférieur (suffixe honorifique)"
+      },
+      {
+        "jap": "〜ちゃん",
+        "romaji": "-chan",
+        "fr": "fille attachante (suffixe honorifique)"
+      },
+      {
+        "jap": "〜たん",
+        "romaji": "-tan",
+        "fr": "fille très mignonne (suffixe honorifique)"
+      },
+      {
+        "jap": "〜氏",
+        "romaji": "-SHI",
+        "fr": "personne qu'on ne connaît pas directement (suffixe honorifique)"
+      },
+      {
+        "jap": "先生",
+        "romaji": "SENSÊ",
+        "fr": "spécialiste dans son domaine (titre honorifique)"
+      },
+      {
+        "jap": "博士",
+        "romaji": "hakase",
+        "fr": "docteur (diplomé de doctorat, titre honorifique)"
+      },
+      {
+        "jap": "先輩",
+        "romaji": "SENPAI",
+        "fr": "personne plus âgée ou de niveau supérieur (titre honorifique)"
+      },
+      {
+        "jap": "後輩",
+        "romaji": "KÔHAI",
+        "fr": "personne plus jeune ou de niveau inférieur"
+      },
+      {
+        "jap": "陛下",
+        "romaji": "HÊKA",
+        "fr": "monarque souverain (titre honorifique)"
+      },
+      {
+        "jap": "殿",
+        "romaji": "tono",
+        "fr": "seigneur féodal (titre non-honorifique)"
+      },
+      {
+        "jap": "防",
+        "romaji": "BÔ",
+        "fr": "jeune garçon (titre non-honorifique)"
+      },
+      {
+        "jap": "姫",
+        "romaji": "hime",
+        "fr": "fille d'une famille noble (titre non-honorifique)"
+      },
+      {
+        "jap": "王",
+        "romaji": "Ô",
+        "fr": "roi (titre non-honorifique)"
+      },
+      {
+        "jap": "女王",
+        "romaji": "JOÔ",
+        "fr": "reine (titre non-honorifique)"
+      },
+      {
+        "jap": "王子",
+        "romaji": "ÔJI",
+        "fr": "prince (titre non-honorifique)"
+      },
+      {
+        "jap": "王女",
+        "romaji": "ÔJO",
+        "fr": "princesse (titre non-honorifique)"
+      }
+    ]
+  }
