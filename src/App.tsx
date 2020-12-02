@@ -1,7 +1,7 @@
 import React from 'react';
 import MainContent from './MainContent';
 import { PageType, PAGE_TYPES } from './utils';
-import vocabs from './vocabs';
+import VOCABS from './vocabs';
 
 class App extends React.Component<Props, State> {
   constructor(props: Props) {
@@ -37,7 +37,7 @@ class App extends React.Component<Props, State> {
       <header>
         <h1>KakiRiakuto</h1>
         <select value={this.state.selectedVocab} onChange={this.handleChangeVocab}>{
-          vocabs.map((vocab, index) =>
+          VOCABS.map((vocab, index) =>
             <option value={index} key={index}>{vocab.title}</option>
           )
         }</select>

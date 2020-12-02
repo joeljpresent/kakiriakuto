@@ -6,7 +6,7 @@ import suffixes_honorifiques from './vocab/suffixes_honorifiques.json';
 import yasashii from "./vocab/yasashii.json"
 
 /** Array of all vocabulary files */
-const vocabs: VocabFile[] = [
+const VOCABS: VocabFile[] = [
     premiers_kanji,
     conjonctions,
     suffixes_honorifiques,
@@ -14,4 +14,4 @@ const vocabs: VocabFile[] = [
     yasashii,
 ];
 
-export default vocabs;
+export default VOCABS;
