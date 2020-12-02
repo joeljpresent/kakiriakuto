@@ -22,7 +22,7 @@ const SANITIZING_FR = new Map([
     ["ù", "u"], ["û", "u"], ["ü", "u"],
     ["ÿ", "y"],
     ["ç", "c"], ["ñ", "n"], ["ß", "ss"],
-    ["-", " "], ["'", " "]
+    ["-", " "], ["'", " "], ['"', ""]
 ]);
 
 function sanitizeFr(txt: string) {

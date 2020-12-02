@@ -1,0 +1,132 @@
+{
+    "$schema": "./_schema.json",
+    "title": "Pronoms personnels",
+    "video_id": "2oa3zrHyopo",
+    "words": [
+      {
+        "jap": "私",
+        "romaji": "watashi",
+        "fr": "\"je\" principal"
+      },
+      {
+        "jap": "僕",
+        "romaji": "BOKU",
+        "fr": "\"je\" des jeunes garçons"
+      },
+      {
+        "jap": "俺",
+        "romaji": "ore",
+        "fr": "\"je\" viril"
+      },
+      {
+        "jap": "我",
+        "romaji": "ware",
+        "fr": "\"je\" littéraire"
+      },
+      {
+        "jap": "わたくし",
+        "romaji": "watakushi",
+        "fr": "\"je\" très formel"
+      },
+      {
+        "jap": "あたし",
+        "romaji": "atashi",
+        "fr": "\"je\" des filles mignonnes"
+      },
+      {
+        "jap": "儂",
+        "romaji": "washi",
+        "fr": "\"je\" des hommes âgés"
+      },
+      {
+        "jap": "おら",
+        "romaji": "ora",
+        "fr": "\"je\" campagnard"
+      },
+      {
+        "jap": "うち",
+        "romaji": "uchi",
+        "fr": "\"je\" des femmes du Kansai"
+      },
+      {
+        "jap": "自分",
+        "romaji": "JIBUN",
+        "fr": "soi-même (aussi \"je\" distant ou \"tu\" du Kansai)"
+      },
+      {
+        "jap": "余",
+        "romaji": "YO",
+        "fr": "\"je\" archaïque"
+      },
+      {
+        "jap": "そなた",
+        "romaji": "sonata",
+        "fr": "\"tu\" désuet"
+      },
+      {
+        "jap": "あなた",
+        "romaji": "anata",
+        "fr": "\"tu\" principal"
+      },
+      {
+        "jap": "君",
+        "romaji": "kimi",
+        "fr": "\"tu\" affectueux"
+      },
+      {
+        "jap": "お前",
+        "romaji": "omae",
+        "fr": "\"tu\" très informel"
+      },
+      {
+        "jap": "あんた",
+        "romaji": "anta",
+        "fr": "\"tu\" de familiarité ou de colère"
+      },
+      {
+        "jap": "手前",
+        "romaji": "temae",
+        "fr": "\"tu\" agressif"
+      },
+      {
+        "jap": "貴様",
+        "romaji": "KISAMA",
+        "fr": "\"tu\" méprisant"
+      },
+      {
+        "jap": "お宅",
+        "romaji": "oTAKU",
+        "fr": "\"tu\" distant"
+      },
+      {
+        "jap": "己",
+        "romaji": "onore",
+        "fr": "\"tu\" archaïque et dégradant"
+      },
+      {
+        "jap": "汝",
+        "romaji": "nanji",
+        "fr": "\"tu\" archaïque et mythologique"
+      },
+      {
+        "jap": "お主",
+        "romaji": "onushi",
+        "fr": "\"tu\" archaïque des anciens"
+      },
+      {
+        "jap": "彼",
+        "romaji": "kare",
+        "fr": "\"il\""
+      },
+      {
+        "jap": "彼女",
+        "romaji": "kanoJO",
+        "fr": "\"elle\""
+      },
+      {
+        "jap": "奴",
+        "romaji": "yatsu",
+        "fr": "\"il\" ou \"elle\" dégradant"
+      }
+    ]
+  }

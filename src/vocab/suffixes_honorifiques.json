@@ -1,17 +1,17 @@
 {
     "$schema": "./_schema.json",
-    "title": "Les suffixes honorifiques",
+    "title": "Suffixes honorifiques",
     "video_id": "xc4-31UMtNw",
     "words": [
       {
         "jap": "〜さん",
         "romaji": "-san",
-        "fr": "respectueux et répandu (suffixe honorifique)"
+        "fr": "suffixe honorifique principal"
       },
       {
         "jap": "〜様",
         "romaji": "-sama",
-        "fr": "personne plus haut placée que soi (suffixe honorifique)"
+        "fr": "personne de statut supérieur (suffixe honorifique)"
       },
       {
         "jap": "〜君",
