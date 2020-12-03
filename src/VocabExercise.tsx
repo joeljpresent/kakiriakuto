@@ -97,21 +97,19 @@ class VocabExercise extends React.Component<Props, State> {
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <h2>{this.getQuestionLine()}</h2>
+                <p className="question-line">{this.getQuestionLine()}</p>
                 <input
                     type="text" value={this.state.inputText}
                     onChange={this.handleChange} disabled={!this.state.isPlaying}
                 />
                 <input type="submit" value="Valider" disabled={!this.state.isPlaying} />
-                <div>
-                    {
-                        (this.state.previousCorrectAnswer != null)
-                        ? <p>La bonne réponse était {this.state.previousCorrectAnswer}</p>
-                        : null
-                    }
-                    <p>Correct: {this.state.correctCount}</p>
-                    <p>Faux: {this.state.wrongCount}</p>
-                </div>
+                {
+                    (this.state.previousCorrectAnswer != null)
+                    ? <p>La bonne réponse était {this.state.previousCorrectAnswer}</p>
+                    : null
+                }
+                <p>Correct: {this.state.correctCount}</p>
+                <p>Faux: {this.state.wrongCount}</p>
             </form>
         );
     }

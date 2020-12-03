@@ -1,6 +1,9 @@
 body {
-  margin: 0;
-  font-family: 'IBM Plex Sans', 'Ubuntu', 'Tahoma', 'Fira Sans', sans-serif;
+  font-family: 'IBM Plex Sans', 'Verdana', 'Tahoma', 'Ubuntu', 'Fira Sans', sans-serif;
+}
+
+.question-line {
+  font-size: 2em;
 }
 
 code {
