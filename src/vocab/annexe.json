@@ -258,7 +258,7 @@
             "fr": "couper"
         },
         {
-            "jap": "数",
+            "jap": "吸う",
             "romaji": "suu",
             "fr": "fumer"
         },
@@ -309,7 +309,7 @@
         },
         {
             "jap": "犯罪者",
-            "romaji": "HANZAINSHA",
+            "romaji": "HANZAISHA",
             "fr": "le criminel"
         },
         {
@@ -485,7 +485,7 @@
         {
             "jap": "国旗",
             "romaji": "KOKKI",
-            "fr": "le drapeau (national)"
+            "fr": "le drapeau national"
         },
         {
             "jap": "鮫",
@@ -600,7 +600,7 @@
         {
             "jap": "お好み焼き",
             "romaji": "okonomiyaki",
-            "fr": "l'okoyonimaki (cuisine japonaise)"
+            "fr": "l'okonomiyaki (cuisine japonaise)"
         },
         {
             "jap": "大人",
