@@ -2,8 +2,9 @@ body {
   font-family: 'IBM Plex Sans', 'Verdana', 'Tahoma', 'Ubuntu', 'Fira Sans', sans-serif;
 }
 
-.question-line {
+h2.question-line-jap {
   font-size: 2em;
+  font-weight: normal;
 }
 
 code {

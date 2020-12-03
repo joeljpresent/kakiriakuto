@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageType } from './utils';
+import { PageType, PAGE_TYPES } from './utils';
 import VocabExercise from './VocabExercise';
 import VOCABS from './vocabs';
 import VocabTable from './VocabTable';
@@ -27,7 +27,9 @@ class MainContent extends React.Component<Props, State> {
             </div>);
         } else {
             return (<div>
-                <h2>Exercice</h2>
+                <p><i>{
+                    PAGE_TYPES[this.props.pageType]
+                }</i></p>
                 <VocabExercise
                     vocab={VOCABS[this.props.selectedVocab]}
                     exoType={this.props.pageType}

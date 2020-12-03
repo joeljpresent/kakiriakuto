@@ -97,7 +97,13 @@ class VocabExercise extends React.Component<Props, State> {
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <p className="question-line">{this.getQuestionLine()}</p>
+                <h2 className={
+                    this.props.exoType === PageType.JapToFr
+                    ? "question-line-jap"
+                    : ""
+                }>
+                    {this.getQuestionLine()}
+                </h2>
                 <input
                     type="text" value={this.state.inputText}
                     onChange={this.handleChange} disabled={!this.state.isPlaying}
