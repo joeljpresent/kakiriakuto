@@ -31,7 +31,7 @@
                     "romaji": {
                         "type": "string",
                         "description": "The romanized transcription of the Japanese word",
-                        "examples": ["araigumi"]
+                        "examples": ["araiguma"]
                     },
                     "fr": {
                         "type": "string",

@@ -1,0 +1,127 @@
+{
+  "$schema": "./_schema.json",
+  "title": "Unités de mesure",
+  "video_id": "J8GyusqJ33s",
+  "words": [
+    {
+      "jap": "〜階",
+      "romaji": "KAI",
+      "fr": "étage (unité)"
+    },
+    {
+      "jap": "二階",
+      "romaji": "NIKAI",
+      "fr": "le premier étage"
+    },
+    {
+      "jap": "〜段",
+      "romaji": "DAN",
+      "fr": "marche d'escalier ou grade (unité)"
+    },
+    {
+      "jap": "〜話",
+      "romaji": "WA",
+      "fr": "histoire ou épisode (unité)"
+    },
+    {
+      "jap": "〜泊",
+      "romaji": "HAKU",
+      "fr": "nuitée (unité)"
+    },
+    {
+      "jap": "〜歳",
+      "romaji": "SAI",
+      "fr": "âge en années (unité)"
+    },
+    {
+      "jap": "二十歳",
+      "romaji": "hatachi",
+      "fr": "vingt ans (âge)"
+    },
+    {
+      "jap": "〜代",
+      "romaji": "DAI",
+      "fr": "génération (unité)"
+    },
+    {
+      "jap": "〜番",
+      "romaji": "BAN",
+      "fr": "numéro (unité)"
+    },
+    {
+      "jap": "〜倍",
+      "romaji": "BAI",
+      "fr": "multiplicateur (unité)"
+    },
+    {
+      "jap": "〜回",
+      "romaji": "KAI",
+      "fr": "occurrence (unité)"
+    },
+    {
+      "jap": "〜度",
+      "romaji": "DO",
+      "fr": "occurrence ou degré (unité)"
+    },
+    {
+      "jap": "一週間に二回",
+      "romaji": "ISSHÛKAN NI NIKAI",
+      "fr": "deux fois par semaine"
+    },
+    {
+      "jap": "二時間前",
+      "romaji": "NIJIKAN-mae",
+      "fr": "il y a deux heures"
+    },
+    {
+      "jap": "二ヶ月後",
+      "romaji": "NIKAGETSU-GO",
+      "fr": "dans deux mois"
+    },
+    {
+      "jap": "メートル",
+      "romaji": "MÊTORU",
+      "fr": "mètre"
+    },
+    {
+      "jap": "グラム",
+      "romaji": "GURAMU",
+      "fr": "gramme"
+    },
+    {
+      "jap": "キロメートル",
+      "romaji": "KIROMÊTORU",
+      "fr": "kilomètre"
+    },
+    {
+      "jap": "キログラム",
+      "romaji": "KIROGURAMU",
+      "fr": "kilogramme"
+    },
+    {
+      "jap": "キロ",
+      "romaji": "KIRO",
+      "fr": "kilo (kg ou km)"
+    },
+    {
+      "jap": "平方メートル",
+      "romaji": "HÊHÔ MÊTORU",
+      "fr": "mètre carré"
+    },
+    {
+      "jap": "立方メートル",
+      "romaji": "RIPPÔ MÊTORU",
+      "fr": "mètre cube"
+    },
+    {
+      "jap": "キロメートル毎時",
+      "romaji": "KIROMÊTORU MAI JI",
+      "fr": "kilomètre par heure"
+    },
+    {
+      "jap": "メートル毎秒毎秒",
+      "romaji": "MÊTORU MAI BYÔ MAI BYÔ",
+      "fr": "mètre par seconde carrée"
+    }
+  ]
+}
