@@ -45,6 +45,7 @@ export type VocabLine = {
  */
 export enum PageType {
     FrontPage,
+    YouTubeVideo,
     VocabularyList,
     FrToJap,
     FrToRomaji,
@@ -56,6 +57,7 @@ export enum PageType {
  */
 export const PAGE_TYPES = [
     "Page de garde",
+    "La vidéo YouTube",
     "Fiche de vocabulaire",
     "Exercice FR → 日本語",
     "Exercice FR → RÔMAJI",

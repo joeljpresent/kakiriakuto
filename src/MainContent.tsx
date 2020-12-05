@@ -9,6 +9,10 @@ class MainContent extends React.Component<Props, State> {
         if (this.props.pageType === PageType.FrontPage) {
             return (<div>
                 <h2>{VOCABS[this.props.selectedVocab].title}</h2>
+            </div>);
+        } else if (this.props.pageType === PageType.YouTubeVideo) {
+            return (<div>
+                <h2>{VOCABS[this.props.selectedVocab].title}</h2>
                 {
                     VOCABS[this.props.selectedVocab].video_id == null
                     ? <p>Ce cours de vocabulaire n'a pas de vidéo associée.</p>
