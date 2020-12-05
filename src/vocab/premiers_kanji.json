@@ -1,6 +1,7 @@
 {
     "$schema": "./_schema.json",
     "title": "Premiers mots en kanji",
+    "description": "Une première liste de kanji à apprendre pour les débutants. Cette liste a été volée au site KaKiKuKeKo.fr et est utilisée ici à titre d'exemple.",
     "video_id": "3p16KejjEpo",
     "words": [
         {

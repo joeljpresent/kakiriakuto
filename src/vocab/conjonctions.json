@@ -1,6 +1,7 @@
 {
     "$schema": "./_schema.json",
     "title": "Conjonctions",
+    "description": "Les conjonctions présentées dans le cours « Les connecteurs logiques en japonais » permettant de relier deux phrases.",
     "video_id": "knPj8V4arvE",
     "words": [
         {

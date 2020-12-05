@@ -1,6 +1,7 @@
 {
     "$schema": "./_schema.json",
     "title": "Pronoms personnels",
+    "description": "Les pronoms personnels utilisés en japonais pour dire “je”, “tu”, et “il” ou “elle”.",
     "video_id": "2oa3zrHyopo",
     "words": [
       {

@@ -1,6 +1,7 @@
 {
     "$schema": "./_schema.json",
     "title": "Yasashii (débug)",
+    "description": "Cette liste de vocabulaire sert uniquement pour le débogage et n'a aucun rapport avec les cours de Julien Fontanier.",
     "words": [
         {
             "fr": "oui",

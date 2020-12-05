@@ -7,6 +7,11 @@ h2.question-line-jap {
   font-weight: normal;
 }
 
+.small-width {
+  width: 30em;
+  text-align: justify;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

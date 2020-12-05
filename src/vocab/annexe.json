@@ -1,6 +1,7 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema",
+    "$schema": "./_schema.json",
     "title": "Vocabulaire annexe",
+    "description": "Cette liste de vocabulaire compile les nombreux mots de vocabulaire que Julien Fontanier a disséminés dans ses cours de grammaire et dans ses exercices.",
     "words": [
         {
             "jap": "伝説",

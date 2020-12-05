@@ -19,6 +19,8 @@ export function getTriplyShuffledArray<T>(array: T[]) {
 export type VocabFile = {
     /** Title of the vocabulary course */
     title: string,
+    /** Description of the vocabulary course */
+    description: string,
     /** The YouTube ID of the video for the vocabulary course (e.g., `dQw4w9WgXcQ`) */
     video_id?: string,
     /** The words taught in the vocabulary course */

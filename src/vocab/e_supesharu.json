@@ -1,6 +1,7 @@
 {
     "$schema": "./_schema.json",
     "title": "ë-SUPESHARU",
+    "description": "Liste de mots rassemblés par un mystérieux JJP. Cette liste n'a aucun rapport avec les cours de Julien Fontanier.",
     "words": [
         {
             "jap": "丁度",

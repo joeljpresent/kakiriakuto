@@ -11,6 +11,10 @@
             "description": "The name of the vocabulary list",
             "type": "string"
         },
+        "description": {
+            "description": "Description of the vocabulary course",
+            "type": "string"
+        },
         "video_id": {
             "description": "The YouTube ID of the video for the vocabulary course",
             "type": "string",
@@ -49,6 +53,6 @@
             }
         }
     },
-    "required": ["title", "words"],
+    "required": ["title", "description", "words"],
     "additionalProperties": false
 }

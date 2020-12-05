@@ -9,6 +9,9 @@ class MainContent extends React.Component<Props, State> {
         if (this.props.pageType === PageType.FrontPage) {
             return (<div>
                 <h2>{VOCABS[this.props.selectedVocab].title}</h2>
+                <p className="small-width">
+                    {VOCABS[this.props.selectedVocab].description}
+                </p>
             </div>);
         } else if (this.props.pageType === PageType.YouTubeVideo) {
             return (<div>
