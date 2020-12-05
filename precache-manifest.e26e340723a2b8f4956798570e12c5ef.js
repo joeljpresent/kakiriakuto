@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ac0b9b649c2770aace90ecc61649e4c",
+    "revision": "09c264fbb68bf36e2a2c44c4eaf93951",
     "url": "/kakiriakuto/index.html"
   },
   {
-    "revision": "523daf9c59c44b5e1550",
-    "url": "/kakiriakuto/static/css/main.bb97ac66.chunk.css"
+    "revision": "6443cb47d5932b42a123",
+    "url": "/kakiriakuto/static/css/main.970b055e.chunk.css"
   },
   {
     "revision": "5dd26ae8585514b02356",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kakiriakuto/static/js/3.5c77004f.chunk.js"
   },
   {
-    "revision": "523daf9c59c44b5e1550",
-    "url": "/kakiriakuto/static/js/main.6e50ae9e.chunk.js"
+    "revision": "6443cb47d5932b42a123",
+    "url": "/kakiriakuto/static/js/main.3b792858.chunk.js"
   },
   {
     "revision": "9d5010c234500b71ec2e",
