@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "09c264fbb68bf36e2a2c44c4eaf93951",
+    "revision": "690b9ef147d6522775f7c26340ba3b47",
     "url": "/kakiriakuto/index.html"
   },
   {
-    "revision": "6443cb47d5932b42a123",
+    "revision": "7a4b82fb330a96f17d22",
     "url": "/kakiriakuto/static/css/main.970b055e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kakiriakuto/static/js/3.5c77004f.chunk.js"
   },
   {
-    "revision": "6443cb47d5932b42a123",
-    "url": "/kakiriakuto/static/js/main.3b792858.chunk.js"
+    "revision": "7a4b82fb330a96f17d22",
+    "url": "/kakiriakuto/static/js/main.8414836b.chunk.js"
   },
   {
     "revision": "9d5010c234500b71ec2e",
