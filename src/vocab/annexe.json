@@ -884,6 +884,26 @@
             "fr": "le PDG (titre non-honorifique)"
         },
         {
+            "jap": "北東",
+            "romaji": "HOKUTÔ",
+            "fr": "le nord-est"
+        },
+        {
+            "jap": "南西",
+            "romaji": "NANSÊ",
+            "fr": "le sud-ouest"
+        },
+        {
+            "jap": "雷",
+            "romaji": "kaminari",
+            "fr": "la foudre"
+        },
+        {
+            "jap": "日々",
+            "romaji": "hibi",
+            "fr": "jour après jour (ou les jours)"
+        },
+        {
             "jap": "具合",
             "romaji": "GUai",
             "fr": "la santé"
