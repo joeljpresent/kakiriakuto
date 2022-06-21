@@ -1,6 +1,7 @@
 import { VocabFile } from "./utils";
 import annexe from './vocab/annexe.json';
 import conjonctions from './vocab/conjonctions.json';
+import legumes_potager from './vocab/legumes_potager.json';
 import premiers_kanji from './vocab/premiers_kanji.json';
 import pronoms_personnels from './vocab/pronoms_personnels.json';
 import suffixes_honorifiques from './vocab/suffixes_honorifiques.json';
@@ -15,6 +16,7 @@ const VOCABS: VocabFile[] = [
     pronoms_personnels,
     suffixes_honorifiques,
     annexe,
+    legumes_potager,
     yasashii,
 ];
 

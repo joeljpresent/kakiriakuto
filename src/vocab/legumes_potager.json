@@ -1,0 +1,128 @@
+{
+    "$schema": "./_schema.json",
+    "title": "Les légumes du potager",
+    "description": "Les fruits et les légumes qui poussent dans un potager.",
+    "video_id": "BPBniJfgPbg",
+    "words": [
+        {
+            "fr": "la pomme de terre",
+            "jap": "じゃが芋",
+            "romaji": "jagaimo",
+            "pitch": "ジャ／カ゚イモ￣"
+        },
+        {
+            "fr": "la carotte",
+            "jap": "人参",
+            "romaji": "NINJIN",
+            "pitch": "ニ／ンジン￣"
+        },
+        {
+            "fr": "la tomate",
+            "jap": "トマト",
+            "romaji": "TOMATO",
+            "pitch": "ト＼マト"
+        },
+        {
+            "fr": "le champignon",
+            "jap": "きのこ",
+            "romaji": "kinoko",
+            "pitch": "キ＼ノコ"
+        },
+        {
+            "fr": "la salade (le plat)",
+            "jap": "サラダ",
+            "romaji": "SARADA",
+            "pitch": "サ＼ラダ"
+        },
+        {
+            "fr": "le chou (le légume)",
+            "jap": "キャベツ",
+            "romaji": "KYABETSU",
+            "pitch": "キャ＼ベツ"
+        },
+        {
+            "fr": "le chou-fleur",
+            "jap": "カリフラワー",
+            "romaji": "KARIFURAWÂ",
+            "pitch": "カ／リフラ＼ワー"
+        },
+        {
+            "fr": "la courgette",
+            "jap": "ズッキーニ",
+            "romaji": "ZUKKÎNI",
+            "pitch": "ズ／ッキ＼ーニ"
+        },
+        {
+            "fr": "l'aubergine",
+            "jap": "なす",
+            "romaji": "nasu",
+            "pitch": "ナ＼ス"
+        },
+        {
+            "fr": "le maïs",
+            "jap": "とうもろこし",
+            "romaji": "tômorokoshi",
+            "pitch": "ト／ーモ＼ロコシ"
+        },
+        {
+            "fr": "l'avocat (le fruit)",
+            "jap": "アボカド",
+            "romaji": "ABOKADO",
+            "pitch": "ア／ボカド￣"
+        },
+        {
+            "fr": "l'olive",
+            "jap": "オリーブ",
+            "romaji": "ORÎBU",
+            "pitch": "オ／リ＼ーブ"
+        },
+        {
+            "fr": "le haricot",
+            "jap": "豆",
+            "romaji": "mame",
+            "pitch": "マ／メ＼"
+        },
+        {
+            "fr": "le radis",
+            "jap": "大根",
+            "romaji": "DAIKON",
+            "pitch": "ダ／イコン￣"
+        },
+        {
+            "fr": "l'artichaut",
+            "jap": "アーティチョーク",
+            "romaji": "ÂTICHÔKU",
+            "pitch": "ア／ーティチョ＼ーク"
+        },
+        {
+            "fr": "le poireau",
+            "jap": "ねぎ",
+            "romaji": "negi",
+            "pitch": "ネ＼キ゚"
+        },
+        {
+            "fr": "l'oignon",
+            "jap": "たまねぎ",
+            "romaji": "tamanegi",
+            "pitch": "タ／マネ＼キ゚"
+        },
+        {
+            "fr": "l'ail",
+            "jap": "にんにく",
+            "romaji": "ninniku",
+            "pitch": "ニ／ンニク￣"
+        },
+        {
+            "fr": "le poivron",
+            "jap": "ピーマン",
+            "romaji": "PÎMAN",
+            "pitch": "ピ＼ーマン"
+        },
+        {
+            "fr": "le piment",
+            "jap": "唐辛子",
+            "romaji": "TÔgaraSHI",
+            "pitch": "ト／ーカ゚＼ラシ"
+        }
+    ]
+}
