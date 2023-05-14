@@ -7,6 +7,15 @@ h2.question-line-jap {
   font-weight: normal;
 }
 
+p.previous-line-correct {
+  color: blue;
+}
+
+p.previous-line-wrong {
+  color: darkred;
+  font-weight: bold;
+}
+
 .small-width {
   width: 30em;
   text-align: justify;

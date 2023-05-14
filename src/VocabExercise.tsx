@@ -12,7 +12,8 @@ class VocabExercise extends React.Component<Props, State> {
             inputText: '',
             vocab: shuffledVocab,
             line: shuffledVocab[0],
-            previousCorrectAnswer: null,
+            previousLine: null,
+            previousAnswerWasWrong: false,
             correctCount: 0,
             wrongCount: 0,
             index: 0,
@@ -21,7 +22,7 @@ class VocabExercise extends React.Component<Props, State> {
     }
 
     handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        this.setState({inputText: event.target.value})
+        this.setState({ inputText: event.target.value })
     };
 
     handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
@@ -39,13 +40,14 @@ class VocabExercise extends React.Component<Props, State> {
         if (isCorrectAnswer) {
             this.setState(state => ({
                 correctCount: state.correctCount + 1,
-                previousCorrectAnswer: null,
+                previousAnswerWasWrong: false,
+                previousLine: state.line,
             }));
         } else {
             this.setState(state => ({
                 wrongCount: state.wrongCount + 1,
-                previousCorrectAnswer: this.getPreviousCorrectAnswer(state.line),
-                vocab: updatedVocab,
+                previousAnswerWasWrong: true,
+                previousLine: state.line,
             }));
         }
         if (isLastQuestion && isCorrectAnswer) {
@@ -74,23 +76,10 @@ class VocabExercise extends React.Component<Props, State> {
         }
     }
 
-    getPreviousCorrectAnswer(previousLine: VocabLine) {
-        switch (this.props.exoType) {
-            case PageType.FrToJap:
-                return `${previousLine.jap} (${previousLine.romaji})`;
-            case PageType.FrToRomaji:
-                return previousLine.romaji;
-            case PageType.JapToFr:
-                return previousLine.fr;
-        }
-        console.error("Unknown exercise type!");
-        return null;
-    }
-
     getQuestionLine() {
         const question = this.props.exoType === PageType.JapToFr
-                       ? this.state.line.jap
-                       : this.state.line.fr;
+            ? this.state.line.jap
+            : this.state.line.fr;
         return this.state.isPlaying ? question : "Terminé !";
     }
 
@@ -99,8 +88,8 @@ class VocabExercise extends React.Component<Props, State> {
             <form onSubmit={this.handleSubmit}>
                 <h2 className={
                     this.props.exoType === PageType.JapToFr
-                    ? "question-line-jap"
-                    : ""
+                        ? "question-line-jap"
+                        : ""
                 }>
                     {this.getQuestionLine()}
                 </h2>
@@ -110,12 +99,23 @@ class VocabExercise extends React.Component<Props, State> {
                 />
                 <input type="submit" value="Valider" disabled={!this.state.isPlaying} />
                 {
-                    (this.state.previousCorrectAnswer != null)
-                    ? <p>La bonne réponse était {this.state.previousCorrectAnswer}</p>
-                    : null
+                    (this.state.previousLine != null)
+                        ? <p className={
+                            this.state.previousAnswerWasWrong
+                                ? "previous-line-wrong"
+                                : "previous-line-correct"
+                        }>
+                            {this.state.previousLine.jap}{" "}
+                            ({this.state.previousLine.romaji}) :{" "}
+                            {this.state.previousLine.fr}
+                        </p>
+                        : null
+
                 }
-                <p>Correct: {this.state.correctCount}</p>
-                <p>Faux: {this.state.wrongCount}</p>
+                <p>
+                    Correct: {this.state.correctCount} /
+                    Faux: {this.state.wrongCount}
+                </p>
             </form>
         );
     }
@@ -132,7 +132,8 @@ type State = {
     inputText: string,
     vocab: VocabLine[],
     line: VocabLine,
-    previousCorrectAnswer: string | null,
+    previousLine: VocabLine | null,
+    previousAnswerWasWrong: boolean,
     correctCount: number,
     wrongCount: number,
     index: number,
