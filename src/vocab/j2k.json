@@ -1,0 +1,392 @@
+{
+    "$schema": "./_schema.json",
+    "title": "J2K",
+    "description": "Liste perso",
+    "words": [
+        {
+            "fr": "indemne, sans problème, sans incident",
+            "jap": "無事",
+            "romaji": "BUJI"
+        },
+        {
+            "fr": "poursuivre, courir après",
+            "jap": "追う",
+            "romaji": "ou"
+        },
+        {
+            "fr": "la directive, l'instruction",
+            "jap": "指示",
+            "romaji": "SHIJI"
+        },
+        {
+            "fr": "le manque d'attention",
+            "jap": "不注意",
+            "romaji": "FUCHÛI"
+        },
+        {
+            "fr": "agité, mouvementé, bruyant",
+            "jap": "騒がしい",
+            "romaji": "sawagashii"
+        },
+        {
+            "fr": "crier",
+            "jap": "叫ぶ",
+            "romaji": "sakebu"
+        },
+        {
+            "fr": "la matière, le matériau",
+            "jap": "素材",
+            "romaji": "SOZAI"
+        },
+        {
+            "fr": "le patrimoine",
+            "jap": "遺産",
+            "romaji": "ISAN"
+        },
+        {
+            "fr": "la catastrophe",
+            "jap": "災害",
+            "romaji": "SAIGAI"
+        },
+        {
+            "fr": "la saison des pluies",
+            "jap": "梅雨",
+            "romaji": "tsuyu"
+        },
+        {
+            "fr": "trembler, se secouer",
+            "jap": "揺れる",
+            "romaji": "yureru"
+        },
+        {
+            "fr": "le blessé",
+            "jap": "怪我人",
+            "romaji": "KEGANIN"
+        },
+        {
+            "fr": "le développement, l'expansion",
+            "jap": "発展",
+            "romaji": "HATTEN"
+        },
+        {
+            "fr": "l'invention, l'ingéniosité",
+            "jap": "工夫",
+            "romaji": "KUFÛ"
+        },
+        {
+            "fr": "essentiel, indispensable",
+            "jap": "欠かせない",
+            "romaji": "kakasenai"
+        },
+        {
+            "fr": "la lumière du soleil",
+            "jap": "日光",
+            "romaji": "NIKKÔ"
+        },
+        {
+            "fr": "l'effet, le résultat",
+            "jap": "効果",
+            "romaji": "KÔKA"
+        },
+        {
+            "fr": "le camion de pompiers",
+            "jap": "消防車",
+            "romaji": "SHÔBÔSHA"
+        },
+        {
+            "fr": "sérieux, grave",
+            "jap": "深刻",
+            "romaji": "SHINKOKU"
+        },
+        {
+            "fr": "l'augmentation, la hausse",
+            "jap": "増加",
+            "romaji": "ZÔKA"
+        },
+        {
+            "fr": "la diminution, le déclin",
+            "jap": "減少",
+            "romaji": "GENSHÔ"
+        },
+        {
+            "fr": "l'enquête, l'investigation",
+            "jap": "調査",
+            "romaji": "CHÔSA"
+        },
+        {
+            "fr": "intense, violent",
+            "jap": "激しい",
+            "romaji": "hageshii"
+        },
+        {
+            "fr": "la tempête",
+            "jap": "嵐",
+            "romaji": "arashi"
+        },
+        {
+            "fr": "la croissance",
+            "jap": "成長",
+            "romaji": "SÊCHÔ"
+        },
+        {
+            "fr": "effrayant",
+            "jap": "恐ろしい",
+            "romaji": "osoroshii"
+        },
+        {
+            "fr": "l'ambassade",
+            "jap": "大使館",
+            "romaji": "TAISHIKAN"
+        },
+        {
+            "fr": "le sujet, le problème",
+            "jap": "課題",
+            "romaji": "KADAI"
+        },
+        {
+            "fr": "la caractéristique",
+            "jap": "特徴",
+            "romaji": "TOKUCHÔ"
+        },
+        {
+            "fr": "la prévision",
+            "jap": "予想",
+            "romaji": "YOSÔ"
+        },
+        {
+            "fr": "l'environnement",
+            "jap": "環境",
+            "romaji": "KANKYÔ"
+        },
+        {
+            "fr": "l'incident",
+            "jap": "事件",
+            "romaji": "JIKEN"
+        },
+        {
+            "fr": "riche, abondant",
+            "jap": "豊か",
+            "romaji": "yutaka"
+        },
+        {
+            "fr": "le don, la donation",
+            "jap": "寄付",
+            "romaji": "KIFU"
+        },
+        {
+            "fr": "l'armée",
+            "jap": "軍隊",
+            "romaji": "GUNTAI"
+        },
+        {
+            "fr": "le préfet",
+            "jap": "知事",
+            "romaji": "CHIJI"
+        },
+        {
+            "fr": "l'évacuation, le refuge",
+            "jap": "避難",
+            "romaji": "HINAN"
+        },
+        {
+            "fr": "attaquer, tirer sur",
+            "jap": "撃つ",
+            "romaji": "utsu"
+        },
+        {
+            "fr": "louche, suspect",
+            "jap": "怪しい",
+            "romaji": "ayashii"
+        },
+        {
+            "fr": "la sécurité, la sûreté",
+            "jap": "治安",
+            "romaji": "CHIAN"
+        },
+        {
+            "fr": "l'infraction",
+            "jap": "違反",
+            "romaji": "IHAN"
+        },
+        {
+            "fr": "le pays natal",
+            "jap": "母国",
+            "romaji": "BOKOKU"
+        },
+        {
+            "fr": "l'assoupissement, le somme",
+            "jap": "居眠り",
+            "romaji": "inemuri"
+        },
+        {
+            "fr": "l'ordre, l'instruction",
+            "jap": "命令",
+            "romaji": "MÊRÊ"
+        },
+        {
+            "fr": "la frontière",
+            "jap": "国境",
+            "romaji": "KOKKYÔ"
+        },
+        {
+            "fr": "pauvre, indigent",
+            "jap": "貧しい",
+            "romaji": "mazushii"
+        },
+        {
+            "fr": "le droit, le privilège",
+            "jap": "権利",
+            "romaji": "KENRI"
+        },
+        {
+            "fr": "le sauvetage",
+            "jap": "救出",
+            "romaji": "KYÛSHUTSU"
+        },
+        {
+            "fr": "la conscience (état de veille)",
+            "jap": "意識",
+            "romaji": "ISHIKI"
+        },
+        {
+            "fr": "le mineur (en âge)",
+            "jap": "未成年",
+            "romaji": "MISÊNEN"
+        },
+        {
+            "fr": "le mort (la personne morte)",
+            "jap": "死者",
+            "romaji": "SHISHA"
+        },
+        {
+            "fr": "la violence",
+            "jap": "暴力",
+            "romaji": "BÔRYOKU"
+        },
+        {
+            "fr": "les biens, la richesse",
+            "jap": "財産",
+            "romaji": "ZAISAN"
+        },
+        {
+            "fr": "le vote, le scrutin",
+            "jap": "投票",
+            "romaji": "TÔHYÔ"
+        },
+        {
+            "fr": "l'explosion",
+            "jap": "爆発",
+            "romaji": "BAKUHATSU"
+        },
+        {
+            "fr": "tranchant, acéré",
+            "jap": "鋭い",
+            "romaji": "surudoi"
+        },
+        {
+            "fr": "la consommation d'alcool",
+            "jap": "飲酒",
+            "romaji": "INSHU"
+        },
+        {
+            "fr": "le crash, la collision",
+            "jap": "墜落",
+            "romaji": "TSUIRAKU"
+        },
+        {
+            "fr": "l'extincteur",
+            "jap": "消火器",
+            "romaji": "SHÔKAKI"
+        },
+        {
+            "fr": "la cascade, la chute d'eau",
+            "jap": "滝",
+            "romaji": "taki"
+        },
+        {
+            "fr": "les ressources",
+            "jap": "資源",
+            "romaji": "SHIGEN"
+        },
+        {
+            "fr": "la protection, la conservation",
+            "jap": "保護",
+            "romaji": "HOGO"
+        },
+        {
+            "fr": "naturel (tiré de la nature)",
+            "jap": "天然",
+            "romaji": "TENNEN"
+        },
+        {
+            "fr": "la destruction",
+            "jap": "破壊",
+            "romaji": "HAKAI"
+        },
+        {
+            "fr": "éviter, empêcher",
+            "jap": "防ぐ",
+            "romaji": "fusegu"
+        },
+        {
+            "fr": "le réglage",
+            "jap": "調節",
+            "romaji": "CHÔSETSU"
+        },
+        {
+            "fr": "critique, d'urgence",
+            "jap": "危機的",
+            "romaji": "KIKITEKI"
+        },
+        {
+            "fr": "l'apparition, le déclenchement",
+            "jap": "発生",
+            "romaji": "HASSÊ"
+        },
+        {
+            "fr": "l'inondation",
+            "jap": "洪水",
+            "romaji": "KÔZUI"
+        },
+        {
+            "fr": "la colline",
+            "jap": "丘",
+            "romaji": "oka"
+        },
+        {
+            "fr": "le charbon",
+            "jap": "石炭",
+            "romaji": "SEKITAN"
+        },
+        {
+            "fr": "le traitement, la gestion",
+            "jap": "処理",
+            "romaji": "SHORI"
+        },
+        {
+            "fr": "le tri, la séparation",
+            "jap": "分離",
+            "romaji": "BUNRI"
+        },
+        {
+            "fr": "briller, étinceler",
+            "jap": "輝く",
+            "romaji": "kagayaku"
+        },
+        {
+            "fr": "la pollution, la nuisance",
+            "jap": "公害",
+            "romaji": "KÔGAI"
+        },
+        {
+            "fr": "l'air, l'atmosphère",
+            "jap": "空気",
+            "romaji": "KÛKI"
+        },
+        {
+            "fr": "la situation, l'état",
+            "jap": "状態",
+            "romaji": "JÔTAI"
+        }
+    ]
+}

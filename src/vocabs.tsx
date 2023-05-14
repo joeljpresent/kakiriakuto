@@ -1,6 +1,7 @@
 import { VocabFile } from "./utils";
 import annexe from './vocab/annexe.json';
 import conjonctions from './vocab/conjonctions.json';
+import j2k from './vocab/j2k.json';
 import legumes_potager from './vocab/legumes_potager.json';
 import premiers_kanji from './vocab/premiers_kanji.json';
 import pronoms_personnels from './vocab/pronoms_personnels.json';
@@ -18,6 +19,7 @@ const VOCABS: VocabFile[] = [
     annexe,
     legumes_potager,
     yasashii,
+    j2k,
 ];
 
 export default VOCABS;

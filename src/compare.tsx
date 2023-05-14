@@ -25,17 +25,34 @@ const SANITIZING_FR = new Map([
     ["-", " "], ["'", " "], ['"', ""]
 ]);
 
-function sanitizeFr(txt: string) {
+function sanitizeFrField(txt: string) {
     return txt
-            .trim()
-            .toLowerCase()
-            .replace(/\s*\(.*\)/, "")
-            .replace(/^(le |la |l'|les )/, "")
-            .replace(/./g, (char: string) =>
-                SANITIZING_FR.get(char) ?? char
-            )
+        .replace(/\s*\([^()]*\)/g, "")
+        .toLowerCase()
+
+        .split(",")
+        .map(
+            val => val
+                .trim()
+                .replace(/^(le |la |l'|les )/, "")
+                .replace(/./g, (char) =>
+                    SANITIZING_FR.get(char) ?? char
+                )
+        );
+}
+
+function sanitizeFrInput(txt: string) {
+    return txt
+        .replace(/\s*\([^()]*\)/g, "")
+        .toLowerCase()
+        .trim()
+        .replace(/^(le |la |l'|les )/, "")
+        .replace(/./g, (char) =>
+            SANITIZING_FR.get(char) ?? char
+        )
+        ;
 }
 
 export function fr(input: string, expected: string) {
-    return sanitizeFr(input) === sanitizeFr(expected);
+    return sanitizeFrField(expected).includes(sanitizeFrInput(input));
 }
