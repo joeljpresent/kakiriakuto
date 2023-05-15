@@ -49,8 +49,7 @@ function sanitizeFrInput(txt: string) {
         .replace(/^(le |la |l'|les )/, "")
         .replace(/./g, (char) =>
             SANITIZING_FR.get(char) ?? char
-        )
-        ;
+        );
 }
 
 export function fr(input: string, expected: string) {

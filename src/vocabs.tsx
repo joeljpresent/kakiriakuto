@@ -18,8 +18,8 @@ const VOCABS: VocabFile[] = [
     suffixes_honorifiques,
     annexe,
     legumes_potager,
-    yasashii,
     j2k,
+    yasashii,
 ];
 
 export default VOCABS;

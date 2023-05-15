@@ -21,6 +21,10 @@ class VocabExercise extends React.Component<Props, State> {
         };
     }
 
+    showsJapLine = () => {
+        return [PageType.JapToFr, PageType.JapToRomaji].includes(this.props.exoType);
+    }
+
     handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         this.setState({ inputText: event.target.value })
     };
@@ -70,6 +74,7 @@ class VocabExercise extends React.Component<Props, State> {
             case PageType.FrToJap:
                 return Compare.jap(this.state.inputText, this.state.line.jap);
             case PageType.FrToRomaji:
+            case PageType.JapToRomaji:
                 return Compare.romaji(this.state.inputText, this.state.line.romaji);
             case PageType.JapToFr:
                 return Compare.fr(this.state.inputText, this.state.line.fr);
@@ -77,7 +82,7 @@ class VocabExercise extends React.Component<Props, State> {
     }
 
     getQuestionLine() {
-        const question = this.props.exoType === PageType.JapToFr
+        const question = this.showsJapLine()
             ? this.state.line.jap
             : this.state.line.fr;
         return this.state.isPlaying ? question : "Terminé !";
@@ -87,7 +92,7 @@ class VocabExercise extends React.Component<Props, State> {
         return (
             <form onSubmit={this.handleSubmit}>
                 <h2 className={
-                    this.props.exoType === PageType.JapToFr
+                    this.showsJapLine()
                         ? "question-line-jap"
                         : ""
                 }>

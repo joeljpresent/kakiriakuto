@@ -10,20 +10,21 @@
             "pitch": "ハ＼イ"
         },
         {
-            "fr": "le poulpe (animal), la pieuvre",
-            "jap": "たこ",
-            "romaji": "tako"
-        },
-        {
             "fr": "l'eau (froide)",
             "jap": "水",
-            "romaji": "mizu"
+            "romaji": "mizu",
+            "pitch": "ミ／ズ￣"
         },
         {
-            "fr": "le lapin (animal)",
-            "jap": "兔",
-            "romaji": "usagi",
-            "pitch": "ウ／サキ゚￣"
+            "fr": "le blé (tendre), le froment",
+            "jap": "小麦",
+            "romaji": "KOMUGI",
+            "pitch": "コ／ム＼キ゚"
+        },
+        {
+            "fr": "télécharger",
+            "jap": "ダウンロードする",
+            "romaji": "DAUNRÔDO suru"
         }
     ]
 }

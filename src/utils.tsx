@@ -52,6 +52,7 @@ export enum PageType {
     FrToJap,
     FrToRomaji,
     JapToFr,
+    JapToRomaji,
 }
 
 /**
@@ -64,4 +65,5 @@ export const PAGE_TYPES = [
     "Exercice FR → 日本語",
     "Exercice FR → RÔMAJI",
     "Exercice 日本語 → FR",
+    "Exercice 日本語 → RÔMAJI",
 ]
