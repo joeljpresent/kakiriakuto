@@ -4,6 +4,21 @@
     "description": "Liste perso",
     "words": [
         {
+            "fr": "éviter, empêcher",
+            "jap": "防ぐ",
+            "romaji": "fusegu"
+        },
+        {
+            "fr": "la situation, l'état",
+            "jap": "状態",
+            "romaji": "JÔTAI"
+        },
+        {
+            "fr": "le tri",
+            "jap": "分別",
+            "romaji": "BUNBETSU"
+        },
+        {
             "fr": "indemne, sans problème, sans incident",
             "jap": "無事",
             "romaji": "BUJI"
@@ -324,11 +339,6 @@
             "romaji": "HAKAI"
         },
         {
-            "fr": "éviter, empêcher",
-            "jap": "防ぐ",
-            "romaji": "fusegu"
-        },
-        {
             "fr": "le réglage",
             "jap": "調節",
             "romaji": "CHÔSETSU"
@@ -364,7 +374,7 @@
             "romaji": "SHORI"
         },
         {
-            "fr": "le tri, la séparation",
+            "fr": "la séparation, le tri",
             "jap": "分離",
             "romaji": "BUNRI"
         },
@@ -382,11 +392,6 @@
             "fr": "l'air, l'atmosphère",
             "jap": "空気",
             "romaji": "KÛKI"
-        },
-        {
-            "fr": "la situation, l'état",
-            "jap": "状態",
-            "romaji": "JÔTAI"
         }
     ]
 }
