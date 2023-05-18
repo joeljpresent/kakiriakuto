@@ -52,6 +52,7 @@ class VocabExercise extends React.Component<Props, State> {
                 wrongCount: state.wrongCount + 1,
                 previousAnswerWasWrong: true,
                 previousLine: state.line,
+                vocab: updatedVocab,
             }));
         }
         if (isLastQuestion && isCorrectAnswer) {
