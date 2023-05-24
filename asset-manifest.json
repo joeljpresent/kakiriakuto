@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kakiriakuto/static/css/main.2f4a542b.css",
-    "main.js": "/kakiriakuto/static/js/main.6b3c8457.js",
+    "main.js": "/kakiriakuto/static/js/main.c80da343.js",
     "static/js/377.7d516e75.chunk.js": "/kakiriakuto/static/js/377.7d516e75.chunk.js",
     "index.html": "/kakiriakuto/index.html",
     "main.2f4a542b.css.map": "/kakiriakuto/static/css/main.2f4a542b.css.map",
-    "main.6b3c8457.js.map": "/kakiriakuto/static/js/main.6b3c8457.js.map",
+    "main.c80da343.js.map": "/kakiriakuto/static/js/main.c80da343.js.map",
     "377.7d516e75.chunk.js.map": "/kakiriakuto/static/js/377.7d516e75.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f4a542b.css",
-    "static/js/main.6b3c8457.js"
+    "static/js/main.c80da343.js"
   ]
 }
