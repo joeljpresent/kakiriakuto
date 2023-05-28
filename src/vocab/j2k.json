@@ -4,29 +4,24 @@
     "description": "Liste perso",
     "words": [
         {
+            "fr": "le pôle Nord, l'Arctique",
+            "jap": "北極",
+            "romaji": "HOKKYOKU"
+        },
+        {
+            "fr": "le pôle Sud, l'Antarctique",
+            "jap": "南極",
+            "romaji": "NANKYOKU"
+        },
+        {
             "fr": "éviter, empêcher",
             "jap": "防ぐ",
             "romaji": "fusegu"
         },
         {
-            "fr": "la situation, l'état",
-            "jap": "状態",
-            "romaji": "JÔTAI"
-        },
-        {
-            "fr": "le tri",
-            "jap": "分別",
-            "romaji": "BUNBETSU"
-        },
-        {
             "fr": "la directive, l'instruction",
             "jap": "指示",
             "romaji": "SHIJI"
-        },
-        {
-            "fr": "le manque d'attention",
-            "jap": "不注意",
-            "romaji": "FUCHÛI"
         },
         {
             "fr": "agité, mouvementé, bruyant",
@@ -44,26 +39,6 @@
             "romaji": "ISAN"
         },
         {
-            "fr": "la catastrophe",
-            "jap": "災害",
-            "romaji": "SAIGAI"
-        },
-        {
-            "fr": "le blessé",
-            "jap": "怪我人",
-            "romaji": "KEGANIN"
-        },
-        {
-            "fr": "le développement, l'expansion",
-            "jap": "発展",
-            "romaji": "HATTEN"
-        },
-        {
-            "fr": "essentiel, indispensable",
-            "jap": "欠かせない",
-            "romaji": "kakasenai"
-        },
-        {
             "fr": "l'effet, le résultat",
             "jap": "効果",
             "romaji": "KÔKA"
@@ -72,16 +47,6 @@
             "fr": "sérieux, grave",
             "jap": "深刻",
             "romaji": "SHINKOKU"
-        },
-        {
-            "fr": "l'augmentation, la hausse",
-            "jap": "増加",
-            "romaji": "ZÔKA"
-        },
-        {
-            "fr": "la diminution, le déclin",
-            "jap": "減少",
-            "romaji": "GENSHÔ"
         },
         {
             "fr": "l'enquête, l'investigation",
@@ -94,16 +59,6 @@
             "romaji": "hageshii"
         },
         {
-            "fr": "la croissance",
-            "jap": "成長",
-            "romaji": "SÊCHÔ"
-        },
-        {
-            "fr": "le sujet, le problème",
-            "jap": "課題",
-            "romaji": "KADAI"
-        },
-        {
             "fr": "l'évacuation, le refuge",
             "jap": "避難",
             "romaji": "HINAN"
@@ -114,49 +69,14 @@
             "romaji": "ayashii"
         },
         {
-            "fr": "l'infraction",
-            "jap": "違反",
-            "romaji": "IHAN"
-        },
-        {
-            "fr": "l'assoupissement, le somme",
-            "jap": "居眠り",
-            "romaji": "inemuri"
-        },
-        {
-            "fr": "la frontière",
-            "jap": "国境",
-            "romaji": "KOKKYÔ"
-        },
-        {
-            "fr": "le mineur (en âge)",
-            "jap": "未成年",
-            "romaji": "MISÊNEN"
-        },
-        {
             "fr": "le mort (la personne morte)",
             "jap": "死者",
             "romaji": "SHISHA"
         },
         {
-            "fr": "la violence",
-            "jap": "暴力",
-            "romaji": "BÔRYOKU"
-        },
-        {
             "fr": "les biens, la richesse",
             "jap": "財産",
             "romaji": "ZAISAN"
-        },
-        {
-            "fr": "le vote, le scrutin",
-            "jap": "投票",
-            "romaji": "TÔHYÔ"
-        },
-        {
-            "fr": "tranchant, acéré",
-            "jap": "鋭い",
-            "romaji": "surudoi"
         },
         {
             "fr": "le crash, la collision",
@@ -167,11 +87,6 @@
             "fr": "l'extincteur",
             "jap": "消火器",
             "romaji": "SHÔKAKI"
-        },
-        {
-            "fr": "les ressources",
-            "jap": "資源",
-            "romaji": "SHIGEN"
         },
         {
             "fr": "la protection, la conservation",
@@ -187,46 +102,6 @@
             "fr": "le réglage",
             "jap": "調節",
             "romaji": "CHÔSETSU"
-        },
-        {
-            "fr": "l'apparition, le déclenchement",
-            "jap": "発生",
-            "romaji": "HASSÊ"
-        },
-        {
-            "fr": "l'inondation",
-            "jap": "洪水",
-            "romaji": "KÔZUI"
-        },
-        {
-            "fr": "la colline",
-            "jap": "丘",
-            "romaji": "oka"
-        },
-        {
-            "fr": "le charbon",
-            "jap": "石炭",
-            "romaji": "SEKITAN"
-        },
-        {
-            "fr": "le traitement, la gestion",
-            "jap": "処理",
-            "romaji": "SHORI"
-        },
-        {
-            "fr": "la séparation, le tri",
-            "jap": "分離",
-            "romaji": "BUNRI"
-        },
-        {
-            "fr": "briller, étinceler",
-            "jap": "輝く",
-            "romaji": "kagayaku"
-        },
-        {
-            "fr": "la pollution, la nuisance",
-            "jap": "公害",
-            "romaji": "KÔGAI"
         }
     ]
 }
