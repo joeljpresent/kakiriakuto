@@ -15,6 +15,16 @@ export function getTriplyShuffledArray<T>(array: T[]) {
     ];
 }
 
+export function updateArrayMap<K, V>(map: Map<K, V[]>, key: K, value: V) {
+    const arr = map.get(key);
+    if (arr != null) {
+        arr.push(value);
+    } else {
+        map.set(key, []);
+    }
+    return map;
+}
+
 /** Data about a given vocabulary course */
 export type VocabFile = {
     /** Title of the vocabulary course */

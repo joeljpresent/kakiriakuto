@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Compare from './compare';
-import { getTriplyShuffledArray, PageType, VocabFile, VocabLine } from './utils';
+import { getTriplyShuffledArray, PageType, updateArrayMap, VocabFile, VocabLine } from './utils';
 
 class VocabExercise extends React.Component<Props, State> {
     constructor(props: Props) {
@@ -15,6 +15,7 @@ class VocabExercise extends React.Component<Props, State> {
             currentVocab: shuffledVocab[0],
             previousVocab: null,
             previousAnswerWasWrong: false,
+            mistakeHistory: new Map(),
             correctCount: 0,
             wrongCount: 0,
             index: 0,
@@ -52,6 +53,11 @@ class VocabExercise extends React.Component<Props, State> {
             this.setState(state => ({
                 wrongCount: state.wrongCount + 1,
                 previousAnswerWasWrong: true,
+                mistakeHistory: updateArrayMap(
+                    state.mistakeHistory,
+                    state.currentVocab.index,
+                    this.state.inputText
+                ),
                 previousVocab: state.currentVocab,
                 vocabs: updatedVocab,
             }));
@@ -71,7 +77,7 @@ class VocabExercise extends React.Component<Props, State> {
         console.log(this.state.inputText);
     }
 
-    isCorrectAnswer() {
+    isCorrectAnswer = () => {
         switch (this.props.exoType) {
             case PageType.FrToJap:
                 return Compare.jap(this.state.inputText, this.state.currentVocab.line.jap);
@@ -83,7 +89,7 @@ class VocabExercise extends React.Component<Props, State> {
         }
     }
 
-    getQuestionLine() {
+    getQuestionLine = () => {
         const question = this.showsJapLine()
             ? this.state.currentVocab.line.jap
             : this.state.currentVocab.line.fr;
@@ -123,6 +129,21 @@ class VocabExercise extends React.Component<Props, State> {
                     Correct: {this.state.correctCount} /
                     Faux: {this.state.wrongCount}
                 </p>
+                {
+                    this.state.isPlaying
+                        ? null
+                        : <div>
+                            <h4>Précédentes erreurs</h4>
+                            <ul>{
+                                [...this.state.mistakeHistory.entries()].map(([index, mistakes]) => {
+                                    const line = this.props.vocab.words[index];
+                                    return <li>
+                                        {line.jap} ({line.romaji}, {line.fr}){" → "}
+                                        {mistakes.join(", ")}
+                                    </li>;
+                                })}</ul>
+                        </div>
+                }
             </form>
         );
     }
@@ -141,13 +162,24 @@ type IndexedVocab = {
 };
 
 type State = {
+    /** The answer entered by the player */
     inputText: string,
+    /** List of every indexed vocab line */
     vocabs: IndexedVocab[],
+    /** The current indexed vocab line */
     currentVocab: IndexedVocab,
+    /** The previous indexed vocab line */
     previousVocab: IndexedVocab | null,
+    /** Whether the player made a mistake on the previous question */
     previousAnswerWasWrong: boolean,
+    /** Map the index of vocab lines and the player's wrong answers */
+    mistakeHistory: Map<number, string[]>,
+    /** Number of questions that the player got right */
     correctCount: number,
+    /** Number of questions that the player got wrong */
     wrongCount: number,
+    /** The index of the current vocab within the vocabs list */
     index: number,
+    /** Whether the game is still playing (false if the game stops) */
     isPlaying: boolean,
 };
