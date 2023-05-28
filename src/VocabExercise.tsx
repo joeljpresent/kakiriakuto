@@ -138,7 +138,7 @@ class VocabExercise extends React.Component<Props, State> {
                                 [...this.state.mistakeHistory.entries()].map(([index, mistakes]) => {
                                     const line = this.props.vocab.words[index];
                                     return <li>
-                                        {line.jap} ({line.romaji}, {line.fr}){" → "}
+                                        <b>{line.jap} ({line.romaji}) : {line.fr}</b>{" → "}
                                         {mistakes.join(", ")}
                                     </li>;
                                 })}</ul>
