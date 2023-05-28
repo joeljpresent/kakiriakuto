@@ -6,13 +6,14 @@ class VocabExercise extends React.Component<Props, State> {
     constructor(props: Props) {
         super(props)
 
-        const shuffledVocab = getTriplyShuffledArray(props.vocab.words);
+        const indexedVocab = props.vocab.words.map((line, index) => ({ line, index }));
+        const shuffledVocab = getTriplyShuffledArray(indexedVocab);
 
         this.state = {
             inputText: '',
-            vocab: shuffledVocab,
-            line: shuffledVocab[0],
-            previousLine: null,
+            vocabs: shuffledVocab,
+            currentVocab: shuffledVocab[0],
+            previousVocab: null,
             previousAnswerWasWrong: false,
             correctCount: 0,
             wrongCount: 0,
@@ -35,24 +36,24 @@ class VocabExercise extends React.Component<Props, State> {
             return;
         }
         const isCorrectAnswer = this.isCorrectAnswer();
-        const isLastQuestion = this.state.index >= this.state.vocab.length - 1;
+        const isLastQuestion = this.state.index >= this.state.vocabs.length - 1;
         const updatedVocab = [
-            ...this.state.vocab,
-            this.state.vocab[this.state.index],
+            ...this.state.vocabs,
+            this.state.vocabs[this.state.index],
         ];
 
         if (isCorrectAnswer) {
             this.setState(state => ({
                 correctCount: state.correctCount + 1,
                 previousAnswerWasWrong: false,
-                previousLine: state.line,
+                previousVocab: state.currentVocab,
             }));
         } else {
             this.setState(state => ({
                 wrongCount: state.wrongCount + 1,
                 previousAnswerWasWrong: true,
-                previousLine: state.line,
-                vocab: updatedVocab,
+                previousVocab: state.currentVocab,
+                vocabs: updatedVocab,
             }));
         }
         if (isLastQuestion && isCorrectAnswer) {
@@ -63,7 +64,7 @@ class VocabExercise extends React.Component<Props, State> {
         } else {
             this.setState(state => ({
                 index: state.index + 1,
-                line: updatedVocab[this.state.index + 1],
+                currentVocab: updatedVocab[this.state.index + 1],
                 inputText: '',
             }));
         }
@@ -73,19 +74,19 @@ class VocabExercise extends React.Component<Props, State> {
     isCorrectAnswer() {
         switch (this.props.exoType) {
             case PageType.FrToJap:
-                return Compare.jap(this.state.inputText, this.state.line.jap);
+                return Compare.jap(this.state.inputText, this.state.currentVocab.line.jap);
             case PageType.FrToRomaji:
             case PageType.JapToRomaji:
-                return Compare.romaji(this.state.inputText, this.state.line.romaji);
+                return Compare.romaji(this.state.inputText, this.state.currentVocab.line.romaji);
             case PageType.JapToFr:
-                return Compare.fr(this.state.inputText, this.state.line.fr);
+                return Compare.fr(this.state.inputText, this.state.currentVocab.line.fr);
         }
     }
 
     getQuestionLine() {
         const question = this.showsJapLine()
-            ? this.state.line.jap
-            : this.state.line.fr;
+            ? this.state.currentVocab.line.jap
+            : this.state.currentVocab.line.fr;
         return this.state.isPlaying ? question : "Terminé !";
     }
 
@@ -105,15 +106,15 @@ class VocabExercise extends React.Component<Props, State> {
                 />
                 <input type="submit" value="Valider" disabled={!this.state.isPlaying} />
                 {
-                    (this.state.previousLine != null)
+                    (this.state.previousVocab != null)
                         ? <p className={
                             this.state.previousAnswerWasWrong
                                 ? "previous-line-wrong"
                                 : "previous-line-correct"
                         }>
-                            {this.state.previousLine.jap}{" "}
-                            ({this.state.previousLine.romaji}) :{" "}
-                            {this.state.previousLine.fr}
+                            {this.state.previousVocab.line.jap}{" "}
+                            ({this.state.previousVocab.line.romaji}) :{" "}
+                            {this.state.previousVocab.line.fr}
                         </p>
                         : null
 
@@ -134,11 +135,16 @@ type Props = {
     exoType: PageType,
 };
 
+type IndexedVocab = {
+    index: number,
+    line: VocabLine
+};
+
 type State = {
     inputText: string,
-    vocab: VocabLine[],
-    line: VocabLine,
-    previousLine: VocabLine | null,
+    vocabs: IndexedVocab[],
+    currentVocab: IndexedVocab,
+    previousVocab: IndexedVocab | null,
     previousAnswerWasWrong: boolean,
     correctCount: number,
     wrongCount: number,
