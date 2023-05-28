@@ -20,7 +20,7 @@ export function updateArrayMap<K, V>(map: Map<K, V[]>, key: K, value: V) {
     if (arr != null) {
         arr.push(value);
     } else {
-        map.set(key, []);
+        map.set(key, [value]);
     }
     return map;
 }
