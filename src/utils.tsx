@@ -1,52 +1,52 @@
 export function getShuffledArray<T>(array: T[]) {
-    const arr = [...array];
-    for (let i = arr.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [arr[i], arr[j]] = [arr[j], arr[i]];
-    }
-    return arr;
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
 }
 
 export function getTriplyShuffledArray<T>(array: T[]) {
-    return [
-        ...getShuffledArray(array),
-        ...getShuffledArray(array),
-        ...getShuffledArray(array),
-    ];
+  return [
+    ...getShuffledArray(array),
+    ...getShuffledArray(array),
+    ...getShuffledArray(array),
+  ];
 }
 
 export function updateArrayMap<K, V>(map: Map<K, V[]>, key: K, value: V) {
-    const arr = map.get(key);
-    if (arr != null) {
-        arr.push(value);
-    } else {
-        map.set(key, [value]);
-    }
-    return map;
+  const arr = map.get(key);
+  if (arr != null) {
+    arr.push(value);
+  } else {
+    map.set(key, [value]);
+  }
+  return map;
 }
 
 /** Data about a given vocabulary course */
 export type VocabFile = {
-    /** Title of the vocabulary course */
-    title: string,
-    /** Description of the vocabulary course */
-    description: string,
-    /** The YouTube ID of the video for the vocabulary course (e.g., `dQw4w9WgXcQ`) */
-    video_id?: string,
-    /** The words taught in the vocabulary course */
-    words: VocabLine[];
+  /** Title of the vocabulary course */
+  title: string,
+  /** Description of the vocabulary course */
+  description: string,
+  /** The YouTube ID of the video for the vocabulary course (e.g., `dQw4w9WgXcQ`) */
+  video_id?: string,
+  /** The words taught in the vocabulary course */
+  words: VocabLine[];
 };
 
 /** A vocabulary word with its translation and other information */
 export type VocabLine = {
-    /** The Japanese word */
-    jap: string;
-    /** The romanized transcription of the Japanese word */
-    romaji: string;
-    /** The French translation of the word */
-    fr: string;
-    /** The intonation (pitch accent) of the Japanese word */
-    pitch?: string;
+  /** The Japanese word */
+  jap: string;
+  /** The romanized transcription of the Japanese word */
+  romaji: string;
+  /** The French translation of the word */
+  fr: string;
+  /** The intonation (pitch accent) of the Japanese word */
+  pitch?: string;
 };
 
 /**
@@ -56,24 +56,24 @@ export type VocabLine = {
  * (i.e., page types must be listed in the same order in this enum as in `PAGE_TYPES`).
  */
 export enum PageType {
-    FrontPage,
-    YouTubeVideo,
-    VocabularyList,
-    FrToJap,
-    FrToRomaji,
-    JapToFr,
-    JapToRomaji,
+  FrontPage,
+  YouTubeVideo,
+  VocabularyList,
+  FrToJap,
+  FrToRomaji,
+  JapToFr,
+  JapToRomaji,
 }
 
 /**
  * Names of page types, listed in the same order as in enum `PageType`.
  */
 export const PAGE_TYPES = [
-    "Page de garde",
-    "La vidéo YouTube",
-    "Fiche de vocabulaire",
-    "Exercice FR → 日本語",
-    "Exercice FR → RÔMAJI",
-    "Exercice 日本語 → FR",
-    "Exercice 日本語 → RÔMAJI",
+  "Page de garde",
+  "La vidéo YouTube",
+  "Fiche de vocabulaire",
+  "Exercice FR → 日本語",
+  "Exercice FR → RÔMAJI",
+  "Exercice 日本語 → FR",
+  "Exercice 日本語 → RÔMAJI",
 ]

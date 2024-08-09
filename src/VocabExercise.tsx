@@ -1,185 +1,140 @@
-import React from 'react';
-import * as Compare from './compare';
-import { getTriplyShuffledArray, PageType, updateArrayMap, VocabFile, VocabLine } from './utils';
+import React, { useState } from "react";
+import * as Compare from "./compare";
+import { getTriplyShuffledArray, PageType, updateArrayMap, VocabFile, VocabLine } from "./utils";
 
-class VocabExercise extends React.Component<Props, State> {
-    constructor(props: Props) {
-        super(props)
+export default function VocabExercise({ vocab, exoType }: Props) {
+  const indexedVocab = vocab.words.map((line, index) => ({ line, index }));
+  const shuffledVocab = getTriplyShuffledArray(indexedVocab);
 
-        const indexedVocab = props.vocab.words.map((line, index) => ({ line, index }));
-        const shuffledVocab = getTriplyShuffledArray(indexedVocab);
+  const [inputText, setInputText] = useState("");
+  const [vocabs, setVocabs] = useState(shuffledVocab);
+  const [currentVocab, setCurrentVocab] = useState(shuffledVocab[0]);
+  const [previousVocab, setPreviousVocab] = useState<IndexedVocab | null>(null);
+  const [previousAnswerWasWrong, setPreviousAnswerWasWrong] = useState(false);
+  const [mistakeHistory, setMistakeHistory] = useState(new Map<number, string[]>());
+  const [correctCount, setCorrectCount] = useState(0);
+  const [wrongCount, setWrongCount] = useState(0);
+  const [index, setIndex] = useState(0);
+  const [isPlaying, setIsPlaying] = useState(true);
 
-        this.state = {
-            inputText: '',
-            vocabs: shuffledVocab,
-            currentVocab: shuffledVocab[0],
-            previousVocab: null,
-            previousAnswerWasWrong: false,
-            mistakeHistory: new Map(),
-            correctCount: 0,
-            wrongCount: 0,
-            index: 0,
-            isPlaying: true,
-        };
+  function showsJapLine() {
+    return [PageType.JapToFr, PageType.JapToRomaji].includes(exoType);
+  }
+
+  function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
+    setInputText(event.target.value);
+  };
+
+  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    if (!inputText) {
+      return;
     }
+    const isTheCorrectAnswer = isCorrectAnswer();
+    const isLastQuestion = index >= vocabs.length - 1;
+    const updatedVocab = [
+      ...vocabs,
+      vocabs[index],
+    ];
 
-    showsJapLine = () => {
-        return [PageType.JapToFr, PageType.JapToRomaji].includes(this.props.exoType);
+    if (isTheCorrectAnswer) {
+      setCorrectCount(correctCount + 1);
+      setPreviousAnswerWasWrong(false);
+      setPreviousVocab(currentVocab);
+    } else {
+      setWrongCount(wrongCount + 1);
+      setPreviousAnswerWasWrong(true);
+      setMistakeHistory(updateArrayMap(mistakeHistory, currentVocab.index, inputText));
+      setPreviousVocab(currentVocab);
+      setVocabs(updatedVocab);
     }
-
-    handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        this.setState({ inputText: event.target.value })
-    };
-
-    handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-        event.preventDefault();
-        if (!this.state.inputText) {
-            return;
-        }
-        const isCorrectAnswer = this.isCorrectAnswer();
-        const isLastQuestion = this.state.index >= this.state.vocabs.length - 1;
-        const updatedVocab = [
-            ...this.state.vocabs,
-            this.state.vocabs[this.state.index],
-        ];
-
-        if (isCorrectAnswer) {
-            this.setState(state => ({
-                correctCount: state.correctCount + 1,
-                previousAnswerWasWrong: false,
-                previousVocab: state.currentVocab,
-            }));
-        } else {
-            this.setState(state => ({
-                wrongCount: state.wrongCount + 1,
-                previousAnswerWasWrong: true,
-                mistakeHistory: updateArrayMap(
-                    state.mistakeHistory,
-                    state.currentVocab.index,
-                    this.state.inputText
-                ),
-                previousVocab: state.currentVocab,
-                vocabs: updatedVocab,
-            }));
-        }
-        if (isLastQuestion && isCorrectAnswer) {
-            this.setState({
-                inputText: '',
-                isPlaying: false,
-            });
-        } else {
-            this.setState(state => ({
-                index: state.index + 1,
-                currentVocab: updatedVocab[this.state.index + 1],
-                inputText: '',
-            }));
-        }
-        console.log(this.state.inputText);
+    if (isLastQuestion && isTheCorrectAnswer) {
+      setInputText("");
+      setIsPlaying(false);
+    } else {
+      setIndex(index + 1);
+      setCurrentVocab(updatedVocab[index + 1]);
+      setInputText("");
     }
+    console.log(inputText);
+  }
 
-    isCorrectAnswer = () => {
-        switch (this.props.exoType) {
-            case PageType.FrToJap:
-                return Compare.jap(this.state.inputText, this.state.currentVocab.line.jap);
-            case PageType.FrToRomaji:
-            case PageType.JapToRomaji:
-                return Compare.romaji(this.state.inputText, this.state.currentVocab.line.romaji);
-            case PageType.JapToFr:
-                return Compare.fr(this.state.inputText, this.state.currentVocab.line.fr);
-        }
+  function isCorrectAnswer() {
+    switch (exoType) {
+      case PageType.FrToJap:
+        return Compare.jap(inputText, currentVocab.line.jap);
+      case PageType.FrToRomaji:
+      case PageType.JapToRomaji:
+        return Compare.romaji(inputText, currentVocab.line.romaji);
+      case PageType.JapToFr:
+        return Compare.fr(inputText, currentVocab.line.fr);
     }
+  }
 
-    getQuestionLine = () => {
-        const question = this.showsJapLine()
-            ? this.state.currentVocab.line.jap
-            : this.state.currentVocab.line.fr;
-        return this.state.isPlaying ? question : "Terminé !";
-    }
+  function getQuestionLine() {
+    const question = showsJapLine()
+      ? currentVocab.line.jap
+      : currentVocab.line.fr;
+    return isPlaying ? question : "Terminé !";
+  }
 
-    render() {
-        return (
-            <form onSubmit={this.handleSubmit}>
-                <h2 className={
-                    this.showsJapLine()
-                        ? "question-line-jap"
-                        : ""
-                }>
-                    {this.getQuestionLine()}
-                </h2>
-                <input
-                    type="text" value={this.state.inputText}
-                    onChange={this.handleChange} disabled={!this.state.isPlaying}
-                />
-                <input type="submit" value="Valider" disabled={!this.state.isPlaying} />
-                {
-                    (this.state.previousVocab != null)
-                        ? <p className={
-                            this.state.previousAnswerWasWrong
-                                ? "previous-line-wrong"
-                                : "previous-line-correct"
-                        }>
-                            {this.state.previousVocab.line.jap}{" "}
-                            ({this.state.previousVocab.line.romaji}) :{" "}
-                            {this.state.previousVocab.line.fr}
-                        </p>
-                        : null
+  return (
+    <form onSubmit={handleSubmit}>
+      <h2 className={
+        showsJapLine()
+          ? "question-line-jap"
+          : ""
+      }>
+        {getQuestionLine()}
+      </h2>
+      <input
+        type="text" value={inputText}
+        onChange={handleChange} disabled={!isPlaying}
+      />
+      <input type="submit" value="Valider" disabled={!isPlaying} />
+      {
+        (previousVocab != null)
+          ? <p className={
+            previousAnswerWasWrong
+              ? "previous-line-wrong"
+              : "previous-line-correct"
+          }>
+            {previousVocab.line.jap}{" "}
+            ({previousVocab.line.romaji}) :{" "}
+            {previousVocab.line.fr}
+          </p>
+          : null
 
-                }
-                <p>
-                    Correct: {this.state.correctCount} /
-                    Faux: {this.state.wrongCount}
-                </p>
-                {
-                    this.state.isPlaying
-                        ? null
-                        : <div>
-                            <h4>Précédentes erreurs</h4>
-                            <ul>{
-                                [...this.state.mistakeHistory.entries()].map(([index, mistakes]) => {
-                                    const line = this.props.vocab.words[index];
-                                    return <li>
-                                        <b>{line.jap} ({line.romaji}) : {line.fr}</b>{" → "}
-                                        {mistakes.join(", ")}
-                                    </li>;
-                                })}</ul>
-                        </div>
-                }
-            </form>
-        );
-    }
+      }
+      <p>
+        Correct: {correctCount} /
+        Faux: {wrongCount}
+      </p>
+      {
+        isPlaying
+          ? null
+          : <div>
+            <h4>Précédentes erreurs</h4>
+            <ul>{
+              [...mistakeHistory.entries()].map(([index, mistakes]) => {
+                const line = vocab.words[index];
+                return <li>
+                  <b>{line.jap} ({line.romaji}) : {line.fr}</b>{" → "}
+                  {mistakes.join(", ")}
+                </li>;
+              })}</ul>
+          </div>
+      }
+    </form>
+  );
 }
 
-export default VocabExercise;
-
 type Props = {
-    vocab: VocabFile,
-    exoType: PageType,
+  vocab: VocabFile,
+  exoType: PageType,
 };
 
 type IndexedVocab = {
-    index: number,
-    line: VocabLine
-};
-
-type State = {
-    /** The answer entered by the player */
-    inputText: string,
-    /** List of every indexed vocab line */
-    vocabs: IndexedVocab[],
-    /** The current indexed vocab line */
-    currentVocab: IndexedVocab,
-    /** The previous indexed vocab line */
-    previousVocab: IndexedVocab | null,
-    /** Whether the player made a mistake on the previous question */
-    previousAnswerWasWrong: boolean,
-    /** Map the index of vocab lines and the player's wrong answers */
-    mistakeHistory: Map<number, string[]>,
-    /** Number of questions that the player got right */
-    correctCount: number,
-    /** Number of questions that the player got wrong */
-    wrongCount: number,
-    /** The index of the current vocab within the vocabs list */
-    index: number,
-    /** Whether the game is still playing (false if the game stops) */
-    isPlaying: boolean,
+  index: number,
+  line: VocabLine
 };
