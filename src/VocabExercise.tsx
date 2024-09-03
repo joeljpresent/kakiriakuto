@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { ChangeEvent, FormEvent, useState } from "react";
 import * as Compare from "./compare";
 import { getTriplyShuffledArray, PageType, updateArrayMap, VocabFile, VocabLine } from "./utils";
 
@@ -21,11 +21,11 @@ export default function VocabExercise({ vocab, exoType }: Props) {
     return [PageType.JapToFr, PageType.JapToRomaji].includes(exoType);
   }
 
-  function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
+  function handleChange(event: ChangeEvent<HTMLInputElement>) {
     setInputText(event.target.value);
   };
 
-  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+  function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!inputText) {
       return;

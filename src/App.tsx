@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { ChangeEvent, MouseEvent, useState } from "react";
 import MainContent from "./MainContent";
 import { PageType, PAGE_TYPES } from "./utils";
 import VOCABS from "./vocabs";
@@ -7,16 +7,16 @@ export default function App() {
   const [selectedVocab, setSelectedVocab] = useState(0);
   const [pageType, setPageType] = useState(PageType.FrontPage);
 
-  function handleChangeVocab(event: React.ChangeEvent<HTMLSelectElement>) {
+  function handleChangeVocab(event: ChangeEvent<HTMLSelectElement>) {
     setSelectedVocab(Number.parseInt(event.target.value, 10) ?? 0);
     setPageType(PageType.FrontPage);
   }
 
-  function handleChoosePageType(event: React.ChangeEvent<HTMLSelectElement>) {
+  function handleChoosePageType(event: ChangeEvent<HTMLSelectElement>) {
     setPageType(Number.parseInt(event.target.value, 10) ?? PageType.FrontPage);
   }
 
-  function handleResetPageType(event: React.MouseEvent<HTMLInputElement>) {
+  function handleResetPageType(event: MouseEvent<HTMLInputElement>) {
     setPageType(PageType.FrontPage);
   }
 
